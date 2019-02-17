@@ -1,4 +1,4 @@
-﻿Log file open, 02/16/19 21:05:04
+﻿Log file open, 02/16/19 21:29:54
 LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
 LogWindows: File 'aqProf.dll' does not exist
 LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
@@ -10,7 +10,7 @@ LogInit: Display: Running engine for game: ProjectROAR_Main
 LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
 LogPlatformFile: Not using cached read wrapper
 LogTaskGraph: Started task graph with 5 named threads and 35 total threads with 3 sets of task threads.
-LogStats: Stats thread started at 0.384228
+LogStats: Stats thread started at 1.182407
 LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
 LogICUInternationalization: ICU TimeZone Detection - Raw Offset: -5:00, Platform Override: ''
 LogPluginManager: Mounting plugin Paper2D
@@ -94,7 +94,7 @@ LogPluginManager: Mounting plugin RuntimePhysXCooking
 LogPluginManager: Mounting plugin SteamVR
 LogPluginManager: Mounting plugin WebMMoviePlayer
 LogPluginManager: Mounting plugin WindowsMoviePlayer
-LogStreaming: Display: Took  0.064s to configure plugins.
+LogStreaming: Display: Took  0.134s to configure plugins.
 LogInit: Using libcurl 7.55.1-DEV
 LogInit:  - built for x86_64-pc-win32
 LogInit:  - supports SSL with OpenSSL/1.0.2h
@@ -123,7 +123,7 @@ LogInit: Compiled (64-bit): Jan 19 2019 02:07:31
 LogInit: Compiled with Visual C++: 19.13.26129.00
 LogInit: Build Configuration: Development
 LogInit: Branch Name: ++UE4+Release-4.21
-LogInit: Command Line:  -EpicPortal -epicusername=DukeOfStress -epicuserid=70fa183f5f064a7bba8ccc4fb906cb70 -epiclocale=en-US
+LogInit: Command Line: 
 LogInit: Base Directory: D:/Unreal Projects/UE_4.21/Engine/Binaries/Win64/
 LogInit: Installed Engine Build: 1
 LogDevObjectVersion: Number of dev versions registered: 22
@@ -154,997 +154,502 @@ LogInit: Presizing for max 8388607 objects, including 0 objects not considered b
 LogInit: Object subsystem initialized
 LogConfig: Setting CVar [[con.DebugEarlyDefault:1]]
 LogConfig: Setting CVar [[r.setres:1280x720]]
-[2019.02.17-02.05.05:132][  0]LogConfig: Setting CVar [[r.VSync:0]]
-[2019.02.17-02.05.05:132][  0]LogConfig: Setting CVar [[r.RHICmdBypass:0]]
-[2019.02.17-02.05.05:132][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererSettings] File [D:/Unreal Projects/ProjectROAR/ProjectROAR_Main/Saved/Config/Windows/Engine.ini]
-[2019.02.17-02.05.05:132][  0]LogConfig: Setting CVar [[r.GPUCrashDebugging:0]]
-[2019.02.17-02.05.05:132][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererOverrideSettings] File [D:/Unreal Projects/ProjectROAR/ProjectROAR_Main/Saved/Config/Windows/Engine.ini]
-[2019.02.17-02.05.05:132][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [D:/Unreal Projects/ProjectROAR/ProjectROAR_Main/Saved/Config/Windows/Engine.ini]
-[2019.02.17-02.05.05:132][  0]LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
-[2019.02.17-02.05.05:132][  0]LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
-[2019.02.17-02.05.05:132][  0]LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
-[2019.02.17-02.05.05:132][  0]LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
-[2019.02.17-02.05.05:132][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
-[2019.02.17-02.05.05:132][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
-[2019.02.17-02.05.05:132][  0]LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
-[2019.02.17-02.05.05:132][  0]LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
-[2019.02.17-02.05.05:132][  0]LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
-[2019.02.17-02.05.05:132][  0]LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
-[2019.02.17-02.05.05:132][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
-[2019.02.17-02.05.05:132][  0]LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
-[2019.02.17-02.05.05:132][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
-[2019.02.17-02.05.05:132][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.GarbageCollectionSettings] File [D:/Unreal Projects/ProjectROAR/ProjectROAR_Main/Saved/Config/Windows/Engine.ini]
-[2019.02.17-02.05.05:132][  0]LogConfig: Setting CVar [[gc.MaxObjectsNotConsideredByGC:1]]
-[2019.02.17-02.05.05:132][  0]LogConfig: Setting CVar [[gc.SizeOfPermanentObjectPool:0]]
-[2019.02.17-02.05.05:132][  0]LogConfig: Setting CVar [[gc.FlushStreamingOnGC:0]]
-[2019.02.17-02.05.05:132][  0]LogConfig: Setting CVar [[gc.NumRetriesBeforeForcingGC:10]]
-[2019.02.17-02.05.05:132][  0]LogConfig: Setting CVar [[gc.AllowParallelGC:1]]
-[2019.02.17-02.05.05:132][  0]LogConfig: Setting CVar [[gc.TimeBetweenPurgingPendingKillObjects:61.1]]
-[2019.02.17-02.05.05:132][  0]LogConfig: Setting CVar [[gc.MaxObjectsInEditor:8388607]]
-[2019.02.17-02.05.05:132][  0]LogConfig: Setting CVar [[gc.IncrementalBeginDestroyEnabled:1]]
-[2019.02.17-02.05.05:132][  0]LogConfig: Setting CVar [[gc.CreateGCClusters:1]]
-[2019.02.17-02.05.05:132][  0]LogConfig: Setting CVar [[gc.MergeGCClusters:0]]
-[2019.02.17-02.05.05:132][  0]LogConfig: Setting CVar [[gc.MinGCClusterSize:5]]
-[2019.02.17-02.05.05:132][  0]LogConfig: Setting CVar [[gc.ActorClusteringEnabled:0]]
-[2019.02.17-02.05.05:132][  0]LogConfig: Setting CVar [[gc.BlueprintClusteringEnabled:0]]
-[2019.02.17-02.05.05:132][  0]LogConfig: Setting CVar [[gc.UseDisregardForGCOnDedicatedServers:0]]
-[2019.02.17-02.05.05:132][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.NetworkSettings] File [D:/Unreal Projects/ProjectROAR/ProjectROAR_Main/Saved/Config/Windows/Engine.ini]
-[2019.02.17-02.05.05:132][  0]LogConfig: Applying CVar settings from Section [/Script/UnrealEd.CookerSettings] File [D:/Unreal Projects/ProjectROAR/ProjectROAR_Main/Saved/Config/Windows/Engine.ini]
-[2019.02.17-02.05.05:139][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [D:/Unreal Projects/ProjectROAR/ProjectROAR_Main/Saved/Config/Windows/Scalability.ini]
-[2019.02.17-02.05.05:139][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
-[2019.02.17-02.05.05:139][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
-[2019.02.17-02.05.05:139][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [D:/Unreal Projects/ProjectROAR/ProjectROAR_Main/Saved/Config/Windows/Scalability.ini]
-[2019.02.17-02.05.05:139][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
-[2019.02.17-02.05.05:139][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [D:/Unreal Projects/ProjectROAR/ProjectROAR_Main/Saved/Config/Windows/Scalability.ini]
-[2019.02.17-02.05.05:139][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
-[2019.02.17-02.05.05:139][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
-[2019.02.17-02.05.05:139][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
-[2019.02.17-02.05.05:139][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
-[2019.02.17-02.05.05:139][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
-[2019.02.17-02.05.05:139][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
-[2019.02.17-02.05.05:139][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
-[2019.02.17-02.05.05:139][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
-[2019.02.17-02.05.05:139][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
-[2019.02.17-02.05.05:139][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
-[2019.02.17-02.05.05:139][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
-[2019.02.17-02.05.05:139][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
-[2019.02.17-02.05.05:139][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
-[2019.02.17-02.05.05:139][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
-[2019.02.17-02.05.05:139][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
-[2019.02.17-02.05.05:139][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
-[2019.02.17-02.05.05:139][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
-[2019.02.17-02.05.05:139][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
-[2019.02.17-02.05.05:139][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [D:/Unreal Projects/ProjectROAR/ProjectROAR_Main/Saved/Config/Windows/Scalability.ini]
-[2019.02.17-02.05.05:139][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
-[2019.02.17-02.05.05:139][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
-[2019.02.17-02.05.05:139][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
-[2019.02.17-02.05.05:139][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
-[2019.02.17-02.05.05:139][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
-[2019.02.17-02.05.05:139][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
-[2019.02.17-02.05.05:139][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
-[2019.02.17-02.05.05:139][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
-[2019.02.17-02.05.05:139][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
-[2019.02.17-02.05.05:139][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
-[2019.02.17-02.05.05:139][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
-[2019.02.17-02.05.05:139][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
-[2019.02.17-02.05.05:139][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
-[2019.02.17-02.05.05:139][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
-[2019.02.17-02.05.05:139][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
-[2019.02.17-02.05.05:139][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
-[2019.02.17-02.05.05:139][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
-[2019.02.17-02.05.05:139][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
-[2019.02.17-02.05.05:139][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
-[2019.02.17-02.05.05:139][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
-[2019.02.17-02.05.05:139][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
-[2019.02.17-02.05.05:139][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
-[2019.02.17-02.05.05:139][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
-[2019.02.17-02.05.05:139][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
-[2019.02.17-02.05.05:139][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
-[2019.02.17-02.05.05:139][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
-[2019.02.17-02.05.05:139][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
-[2019.02.17-02.05.05:139][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
-[2019.02.17-02.05.05:139][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
-[2019.02.17-02.05.05:139][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
-[2019.02.17-02.05.05:139][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [D:/Unreal Projects/ProjectROAR/ProjectROAR_Main/Saved/Config/Windows/Scalability.ini]
-[2019.02.17-02.05.05:139][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
-[2019.02.17-02.05.05:139][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
-[2019.02.17-02.05.05:139][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
-[2019.02.17-02.05.05:139][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
-[2019.02.17-02.05.05:139][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
-[2019.02.17-02.05.05:139][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
-[2019.02.17-02.05.05:140][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
-[2019.02.17-02.05.05:140][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
-[2019.02.17-02.05.05:140][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [D:/Unreal Projects/ProjectROAR/ProjectROAR_Main/Saved/Config/Windows/Scalability.ini]
-[2019.02.17-02.05.05:140][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
-[2019.02.17-02.05.05:140][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
-[2019.02.17-02.05.05:140][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
-[2019.02.17-02.05.05:140][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
-[2019.02.17-02.05.05:140][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
-[2019.02.17-02.05.05:140][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
-[2019.02.17-02.05.05:140][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
-[2019.02.17-02.05.05:140][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
-[2019.02.17-02.05.05:140][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
-[2019.02.17-02.05.05:140][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
-[2019.02.17-02.05.05:140][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
-[2019.02.17-02.05.05:140][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
-[2019.02.17-02.05.05:140][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
-[2019.02.17-02.05.05:140][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [D:/Unreal Projects/ProjectROAR/ProjectROAR_Main/Saved/Config/Windows/Scalability.ini]
-[2019.02.17-02.05.05:140][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
-[2019.02.17-02.05.05:140][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
-[2019.02.17-02.05.05:140][  0]LogInit: Selected Device Profile: [Windows]
-[2019.02.17-02.05.05:140][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
-[2019.02.17-02.05.05:148][  0]LogHAL: Display: Platform has ~ 16 GB [17138286592 / 17179869184 / 16], which maps to Larger [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
-[2019.02.17-02.05.05:148][  0]LogConfig: Setting CVar [[r.Vulkan.UseRealUBs:1]]
-[2019.02.17-02.05.05:148][  0]LogInit: Going up to parent DeviceProfile []
-[2019.02.17-02.05.05:148][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [D:/Unreal Projects/ProjectROAR/ProjectROAR_Main/Saved/Config/Windows/Scalability.ini]
-[2019.02.17-02.05.05:148][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
-[2019.02.17-02.05.05:148][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
-[2019.02.17-02.05.05:148][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [D:/Unreal Projects/ProjectROAR/ProjectROAR_Main/Saved/Config/Windows/Scalability.ini]
-[2019.02.17-02.05.05:148][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
-[2019.02.17-02.05.05:148][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [D:/Unreal Projects/ProjectROAR/ProjectROAR_Main/Saved/Config/Windows/Scalability.ini]
-[2019.02.17-02.05.05:148][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
-[2019.02.17-02.05.05:149][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
-[2019.02.17-02.05.05:149][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
-[2019.02.17-02.05.05:149][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
-[2019.02.17-02.05.05:149][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
-[2019.02.17-02.05.05:149][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
-[2019.02.17-02.05.05:149][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
-[2019.02.17-02.05.05:149][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
-[2019.02.17-02.05.05:149][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
-[2019.02.17-02.05.05:149][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
-[2019.02.17-02.05.05:149][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
-[2019.02.17-02.05.05:149][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
-[2019.02.17-02.05.05:149][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
-[2019.02.17-02.05.05:149][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
-[2019.02.17-02.05.05:149][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
-[2019.02.17-02.05.05:149][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
-[2019.02.17-02.05.05:149][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
-[2019.02.17-02.05.05:149][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
-[2019.02.17-02.05.05:149][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [D:/Unreal Projects/ProjectROAR/ProjectROAR_Main/Saved/Config/Windows/Scalability.ini]
-[2019.02.17-02.05.05:149][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
-[2019.02.17-02.05.05:149][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
-[2019.02.17-02.05.05:149][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
-[2019.02.17-02.05.05:149][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
-[2019.02.17-02.05.05:149][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
-[2019.02.17-02.05.05:149][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
-[2019.02.17-02.05.05:149][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
-[2019.02.17-02.05.05:149][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
-[2019.02.17-02.05.05:149][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
-[2019.02.17-02.05.05:149][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
-[2019.02.17-02.05.05:149][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
-[2019.02.17-02.05.05:149][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
-[2019.02.17-02.05.05:149][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
-[2019.02.17-02.05.05:149][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
-[2019.02.17-02.05.05:149][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
-[2019.02.17-02.05.05:149][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
-[2019.02.17-02.05.05:149][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
-[2019.02.17-02.05.05:149][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
-[2019.02.17-02.05.05:149][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
-[2019.02.17-02.05.05:149][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
-[2019.02.17-02.05.05:149][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
-[2019.02.17-02.05.05:149][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
-[2019.02.17-02.05.05:149][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
-[2019.02.17-02.05.05:149][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
-[2019.02.17-02.05.05:149][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
-[2019.02.17-02.05.05:149][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
-[2019.02.17-02.05.05:149][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
-[2019.02.17-02.05.05:149][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
-[2019.02.17-02.05.05:149][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
-[2019.02.17-02.05.05:149][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
-[2019.02.17-02.05.05:149][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [D:/Unreal Projects/ProjectROAR/ProjectROAR_Main/Saved/Config/Windows/Scalability.ini]
-[2019.02.17-02.05.05:149][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
-[2019.02.17-02.05.05:149][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
-[2019.02.17-02.05.05:149][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
-[2019.02.17-02.05.05:149][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
-[2019.02.17-02.05.05:149][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
-[2019.02.17-02.05.05:149][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
-[2019.02.17-02.05.05:149][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
-[2019.02.17-02.05.05:149][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
-[2019.02.17-02.05.05:149][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [D:/Unreal Projects/ProjectROAR/ProjectROAR_Main/Saved/Config/Windows/Scalability.ini]
-[2019.02.17-02.05.05:149][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
-[2019.02.17-02.05.05:149][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
-[2019.02.17-02.05.05:149][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
-[2019.02.17-02.05.05:149][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
-[2019.02.17-02.05.05:149][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
-[2019.02.17-02.05.05:149][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
-[2019.02.17-02.05.05:149][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
-[2019.02.17-02.05.05:149][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
-[2019.02.17-02.05.05:149][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
-[2019.02.17-02.05.05:149][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
-[2019.02.17-02.05.05:149][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
-[2019.02.17-02.05.05:149][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
-[2019.02.17-02.05.05:149][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
-[2019.02.17-02.05.05:149][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [D:/Unreal Projects/ProjectROAR/ProjectROAR_Main/Saved/Config/Windows/Scalability.ini]
-[2019.02.17-02.05.05:149][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
-[2019.02.17-02.05.05:149][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
-[2019.02.17-02.05.05:149][  0]LogConfig: Applying CVar settings from Section [Startup] File [../../../Engine/Config/ConsoleVariables.ini]
-[2019.02.17-02.05.05:149][  0]LogConfig: Setting CVar [[net.UseAdaptiveNetUpdateFrequency:0]]
-[2019.02.17-02.05.05:149][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [D:/Unreal Projects/ProjectROAR/ProjectROAR_Main/Saved/Config/Windows/Engine.ini]
-[2019.02.17-02.05.05:150][  0]LogInit: Computer: HOME-PC
-[2019.02.17-02.05.05:150][  0]LogInit: User: Alec
-[2019.02.17-02.05.05:150][  0]LogInit: CPU Page size=4096, Cores=6
-[2019.02.17-02.05.05:150][  0]LogInit: High frequency timer resolution =10.000000 MHz
-[2019.02.17-02.05.05:150][  0]LogMemory: Memory total: Physical=16.0GB (16GB approx)
-[2019.02.17-02.05.05:150][  0]LogMemory: Platform Memory Stats for Windows
-[2019.02.17-02.05.05:150][  0]LogMemory: Process Physical Memory: 103.88 MB used, 103.88 MB peak
-[2019.02.17-02.05.05:150][  0]LogMemory: Process Virtual Memory: 94.23 MB used, 94.23 MB peak
-[2019.02.17-02.05.05:150][  0]LogMemory: Physical Memory: 11608.23 MB used,  4736.12 MB free, 16344.34 MB total
-[2019.02.17-02.05.05:150][  0]LogMemory: Virtual Memory: 4670.29 MB used,  134213056.00 MB free, 134217728.00 MB total
-[2019.02.17-02.05.05:164][  0]LogInit: Using OS detected language (en-US).
-[2019.02.17-02.05.05:164][  0]LogInit: Using OS detected locale (en-US).
-[2019.02.17-02.05.05:165][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
-[2019.02.17-02.05.05:452][  0]LogStreaming: Display: Took  0.288s to InitEngineTextLocalization.
-[2019.02.17-02.05.05:452][  0]LogInit: Setting process to per monitor DPI aware
-[2019.02.17-02.05.05:488][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
-[2019.02.17-02.05.05:488][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
-[2019.02.17-02.05.05:757][  0]LogHMD: Failed to initialize OpenVR with code 110
-[2019.02.17-02.05.05:757][  0]LogD3D11RHI: D3D11 adapters:
-[2019.02.17-02.05.05:824][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1070' (Feature Level 11_0)
-[2019.02.17-02.05.05:824][  0]LogD3D11RHI:       8088/0/8172 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x10de
-[2019.02.17-02.05.05:825][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
-[2019.02.17-02.05.05:825][  0]LogD3D11RHI:       0/0/8172 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
-[2019.02.17-02.05.05:825][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
-[2019.02.17-02.05.05:832][  0]LogD3D11RHI: Creating new Direct3DDevice
-[2019.02.17-02.05.05:832][  0]LogD3D11RHI:     GPU DeviceId: 0x1b81 (for the marketing name, search the web for "GPU Device Id")
-[2019.02.17-02.05.05:832][  0]LogWindows: EnumDisplayDevices:
-[2019.02.17-02.05.05:832][  0]LogWindows:    0. 'NVIDIA GeForce GTX 1070' (P:1 D:1)
-[2019.02.17-02.05.05:833][  0]LogWindows:    1. 'NVIDIA GeForce GTX 1070' (P:0 D:1)
-[2019.02.17-02.05.05:833][  0]LogWindows:    2. 'NVIDIA GeForce GTX 1070' (P:0 D:0)
-[2019.02.17-02.05.05:833][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1070' (P:0 D:0)
-[2019.02.17-02.05.05:833][  0]LogWindows: DebugString: FoundDriverCount:4 
-[2019.02.17-02.05.05:833][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1070
-[2019.02.17-02.05.05:833][  0]LogD3D11RHI:   Driver Version: 418.81 (internal:25.21.14.1881, unified:418.81)
-[2019.02.17-02.05.05:833][  0]LogD3D11RHI:      Driver Date: 1-30-2019
-[2019.02.17-02.05.05:833][  0]LogRHI: Texture pool is 5661 MB (70% of 8088 MB)
-[2019.02.17-02.05.05:861][  0]LogD3D11RHI: Async texture creation enabled
-[2019.02.17-02.05.05:872][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
-[2019.02.17-02.05.06:326][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
-[2019.02.17-02.05.06:336][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
-[2019.02.17-02.05.06:346][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
-[2019.02.17-02.05.06:356][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
-[2019.02.17-02.05.06:368][  0]LogTemp: Display: Loaded TP MacTargetPlatform
-[2019.02.17-02.05.06:377][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
-[2019.02.17-02.05.06:387][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
-[2019.02.17-02.05.06:397][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
-[2019.02.17-02.05.06:401][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
-[2019.02.17-02.05.06:456][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.02.17-02.05.06:456][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.02.17-02.05.06:456][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.02.17-02.05.06:456][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.02.17-02.05.06:456][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.02.17-02.05.06:456][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.02.17-02.05.06:456][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.02.17-02.05.06:456][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.02.17-02.05.06:456][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.02.17-02.05.06:456][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.02.17-02.05.06:456][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.02.17-02.05.06:456][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.02.17-02.05.06:456][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.02.17-02.05.06:456][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.02.17-02.05.06:456][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.02.17-02.05.06:456][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.02.17-02.05.06:456][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.02.17-02.05.06:456][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.02.17-02.05.06:457][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
-[2019.02.17-02.05.06:509][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
-[2019.02.17-02.05.06:509][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
-[2019.02.17-02.05.06:526][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
-[2019.02.17-02.05.06:526][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
-[2019.02.17-02.05.06:537][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
-[2019.02.17-02.05.06:546][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
-[2019.02.17-02.05.06:557][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
-[2019.02.17-02.05.06:567][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
-[2019.02.17-02.05.06:600][  0]LogTemp: Display: Loaded TP LuminTargetPlatform
-[2019.02.17-02.05.06:600][  0]LogTemp: Display: Loaded TP LuminTargetPlatform
-[2019.02.17-02.05.06:600][  0]LogTargetPlatformManager: Display: Building Assets For Windows
-[2019.02.17-02.05.06:641][  0]LogShaderCompilers: Guid format shader working directory is 5 characters bigger than the processId version (../../../../ProjectROAR/ProjectROAR_Main/Intermediate/Shaders/WorkingDirectory/7548/).
-[2019.02.17-02.05.06:641][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Alec/AppData/Local/Temp/UnrealShaderWorkingDir/F08592324AE20B9A6820C1A6F062D5FB/'.
-[2019.02.17-02.05.06:643][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
-[2019.02.17-02.05.06:643][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
-[2019.02.17-02.05.06:643][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
-[2019.02.17-02.05.07:066][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
-[2019.02.17-02.05.07:110][  0]LogDerivedDataCache: Loaded boot cache 0.04s 88MB C:/Users/Alec/AppData/Local/UnrealEngine/4.21/DerivedDataCache/Boot.ddc.
-[2019.02.17-02.05.07:110][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/Alec/AppData/Local/UnrealEngine/4.21/DerivedDataCache/Boot.ddc
-[2019.02.17-02.05.07:110][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../ProjectROAR/ProjectROAR_Main/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
-[2019.02.17-02.05.07:110][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
-[2019.02.17-02.05.07:110][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../ProjectROAR/ProjectROAR_Main/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
-[2019.02.17-02.05.07:110][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
-[2019.02.17-02.05.07:120][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
-[2019.02.17-02.05.07:120][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  EnterprisePak pak cache file ../../../Enterprise/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
-[2019.02.17-02.05.07:120][  0]LogDerivedDataCache: Unable to find inner node EnterprisePak for hierarchical cache Hierarchy.
-[2019.02.17-02.05.07:132][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Alec/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
-[2019.02.17-02.05.07:132][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
-[2019.02.17-02.05.07:132][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
-[2019.02.17-02.05.07:149][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
-[2019.02.17-02.05.07:150][  0]LogSlate: Using FreeType 2.6.0
-[2019.02.17-02.05.07:151][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2019.02.17-02.05.07:232][  0]LogAssetRegistry: FAssetRegistry took 0.0299 seconds to start up
-[2019.02.17-02.05.07:480][  0]LogInit: Selected Device Profile: [Windows]
-[2019.02.17-02.05.07:596][  0]LogSimplygon: Simplygon DLL not present - disabling.
-[2019.02.17-02.05.07:599][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
-[2019.02.17-02.05.07:599][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
-[2019.02.17-02.05.07:599][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
-[2019.02.17-02.05.07:599][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
-[2019.02.17-02.05.07:611][  0]LogNetVersion: ProjectROAR_Main 1.0.0, NetCL: 4541578, EngineNetVer: 5, GameNetVer: 0 (Checksum: 3325386764)
-[2019.02.17-02.05.08:044][  0]LogPackageLocalizationCache: Processed 11 localized package path(s) for 2 prioritized culture(s) in 0.071752 seconds
-[2019.02.17-02.05.08:049][  0]LogUObjectArray: 39775 objects as part of root set at end of initial load.
-[2019.02.17-02.05.08:049][  0]LogUObjectAllocator: 6914656 out of 0 bytes used by permanent object pool.
-[2019.02.17-02.05.08:049][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
-[2019.02.17-02.05.08:829][  0]LogTcpMessaging: Initializing TcpMessaging bridge
-[2019.02.17-02.05.08:850][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
-[2019.02.17-02.05.09:520][  0]SourceControl: Source control is disabled
-[2019.02.17-02.05.09:520][  0]SourceControl: Source control is disabled
-[2019.02.17-02.05.09:521][  0]SourceControl: Source control is disabled
-[2019.02.17-02.05.09:521][  0]SourceControl: Source control is disabled
-[2019.02.17-02.05.09:663][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
-[2019.02.17-02.05.09:729][  0]LogOcInput: OculusInput pre-init called
-[2019.02.17-02.05.09:852][  0]LogEngine: Initializing Engine...
-[2019.02.17-02.05.09:852][  0]LogHMD: Failed to initialize OpenVR with code 110
-[2019.02.17-02.05.09:853][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
-[2019.02.17-02.05.09:853][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
-[2019.02.17-02.05.09:853][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
-[2019.02.17-02.05.09:853][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
-[2019.02.17-02.05.10:041][  0]LogInit: Initializing FReadOnlyCVARCache
-[2019.02.17-02.05.10:051][  0]LogAIModule: Creating AISystem for world Untitled
-[2019.02.17-02.05.10:111][  0]LogInit: XAudio2 using 'Speakers (Realtek(R) Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2019.02.17-02.05.10:131][  0]LogInit: FAudioDevice initialized.
-[2019.02.17-02.05.10:131][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
-[2019.02.17-02.05.10:459][  0]LogDerivedDataCache: Saved boot cache 0.33s 72MB C:/Users/Alec/AppData/Local/UnrealEngine/4.21/DerivedDataCache/Boot.ddc.
-[2019.02.17-02.05.10:462][  0]LogInit: Texture streaming: Enabled
-[2019.02.17-02.05.10:473][  0]LogEngineSessionManager: EngineSessionManager initialized
-[2019.02.17-02.05.10:483][  0]LogInit: Transaction tracking system initialized
-[2019.02.17-02.05.10:501][  0]BlueprintLog: New page: Editor Load
-[2019.02.17-02.05.10:551][  0]LogInit: Warning: CVar named 'r.MobileHDR' marked up in RendererSettings was not found or is set to read-only
-[2019.02.17-02.05.10:665][  0]LocalizationService: Localization service is disabled
-[2019.02.17-02.05.11:041][  0]LogFileCache: Scanning file cache for directory 'D:/Unreal Projects/ProjectROAR/ProjectROAR_Main/Content/' took 0.01s
-[2019.02.17-02.05.11:041][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
-[2019.02.17-02.05.11:041][  0]LogCook: Display: Mobile HDR setting 0
-[2019.02.17-02.05.11:042][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
-[2019.02.17-02.05.11:042][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
-[2019.02.17-02.05.11:042][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
-[2019.02.17-02.05.11:042][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
-[2019.02.17-02.05.11:042][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
-[2019.02.17-02.05.11:160][  0]SourceControl: Source control is disabled
-[2019.02.17-02.05.11:161][  0]LogFactory: FactoryCreateFile: PackFactory with PackFactory (0 0 D:/Unreal Projects/UE_4.21/FeaturePacks/MobileStarterContent.upack)
-[2019.02.17-02.05.11:165][  0]LogPackFactory: Finished extracting 8 files (including 0 errors).
-[2019.02.17-02.05.11:169][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Architecture/Floor_400x400.uasset" to "../../../../ProjectROAR/ProjectROAR_Main/Content/MobileStarterContent/Architecture/Floor_400x400.uasset"
-[2019.02.17-02.05.11:173][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Architecture/Pillar_50x500.uasset" to "../../../../ProjectROAR/ProjectROAR_Main/Content/MobileStarterContent/Architecture/Pillar_50x500.uasset"
-[2019.02.17-02.05.11:177][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Architecture/Wall_400x200.uasset" to "../../../../ProjectROAR/ProjectROAR_Main/Content/MobileStarterContent/Architecture/Wall_400x200.uasset"
-[2019.02.17-02.05.11:180][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Architecture/Wall_400x300.uasset" to "../../../../ProjectROAR/ProjectROAR_Main/Content/MobileStarterContent/Architecture/Wall_400x300.uasset"
-[2019.02.17-02.05.11:183][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Architecture/Wall_400x400.uasset" to "../../../../ProjectROAR/ProjectROAR_Main/Content/MobileStarterContent/Architecture/Wall_400x400.uasset"
-[2019.02.17-02.05.11:187][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Architecture/Wall_500x500.uasset" to "../../../../ProjectROAR/ProjectROAR_Main/Content/MobileStarterContent/Architecture/Wall_500x500.uasset"
-[2019.02.17-02.05.11:190][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Architecture/Wall_Door_400x300.uasset" to "../../../../ProjectROAR/ProjectROAR_Main/Content/MobileStarterContent/Architecture/Wall_Door_400x300.uasset"
-[2019.02.17-02.05.11:193][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Architecture/Wall_Door_400x400.uasset" to "../../../../ProjectROAR/ProjectROAR_Main/Content/MobileStarterContent/Architecture/Wall_Door_400x400.uasset"
-[2019.02.17-02.05.11:196][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Architecture/Wall_Window_400x300.uasset" to "../../../../ProjectROAR/ProjectROAR_Main/Content/MobileStarterContent/Architecture/Wall_Window_400x300.uasset"
-[2019.02.17-02.05.11:201][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Architecture/Wall_Window_400x400.uasset" to "../../../../ProjectROAR/ProjectROAR_Main/Content/MobileStarterContent/Architecture/Wall_Window_400x400.uasset"
-[2019.02.17-02.05.11:207][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Audio/Collapse01.uasset" to "../../../../ProjectROAR/ProjectROAR_Main/Content/MobileStarterContent/Audio/Collapse01.uasset"
-[2019.02.17-02.05.11:210][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Audio/Collapse02.uasset" to "../../../../ProjectROAR/ProjectROAR_Main/Content/MobileStarterContent/Audio/Collapse02.uasset"
-[2019.02.17-02.05.11:213][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Audio/Collapse_Cue.uasset" to "../../../../ProjectROAR/ProjectROAR_Main/Content/MobileStarterContent/Audio/Collapse_Cue.uasset"
-[2019.02.17-02.05.11:217][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Audio/Explosion01.uasset" to "../../../../ProjectROAR/ProjectROAR_Main/Content/MobileStarterContent/Audio/Explosion01.uasset"
-[2019.02.17-02.05.11:220][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Audio/Explosion02.uasset" to "../../../../ProjectROAR/ProjectROAR_Main/Content/MobileStarterContent/Audio/Explosion02.uasset"
-[2019.02.17-02.05.11:223][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Audio/Explosion_Cue.uasset" to "../../../../ProjectROAR/ProjectROAR_Main/Content/MobileStarterContent/Audio/Explosion_Cue.uasset"
-[2019.02.17-02.05.11:227][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Audio/Fire01.uasset" to "../../../../ProjectROAR/ProjectROAR_Main/Content/MobileStarterContent/Audio/Fire01.uasset"
-[2019.02.17-02.05.11:229][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Audio/Fire01_Cue.uasset" to "../../../../ProjectROAR/ProjectROAR_Main/Content/MobileStarterContent/Audio/Fire01_Cue.uasset"
-[2019.02.17-02.05.11:233][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Audio/Fire_Sparks01.uasset" to "../../../../ProjectROAR/ProjectROAR_Main/Content/MobileStarterContent/Audio/Fire_Sparks01.uasset"
-[2019.02.17-02.05.11:236][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Audio/Fire_Sparks01_Cue.uasset" to "../../../../ProjectROAR/ProjectROAR_Main/Content/MobileStarterContent/Audio/Fire_Sparks01_Cue.uasset"
-[2019.02.17-02.05.11:239][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Audio/Light01.uasset" to "../../../../ProjectROAR/ProjectROAR_Main/Content/MobileStarterContent/Audio/Light01.uasset"
-[2019.02.17-02.05.11:242][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Audio/Light01_Cue.uasset" to "../../../../ProjectROAR/ProjectROAR_Main/Content/MobileStarterContent/Audio/Light01_Cue.uasset"
-[2019.02.17-02.05.11:245][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Audio/Light02.uasset" to "../../../../ProjectROAR/ProjectROAR_Main/Content/MobileStarterContent/Audio/Light02.uasset"
-[2019.02.17-02.05.11:248][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Audio/Light02_Cue.uasset" to "../../../../ProjectROAR/ProjectROAR_Main/Content/MobileStarterContent/Audio/Light02_Cue.uasset"
-[2019.02.17-02.05.11:252][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Audio/Smoke01.uasset" to "../../../../ProjectROAR/ProjectROAR_Main/Content/MobileStarterContent/Audio/Smoke01.uasset"
-[2019.02.17-02.05.11:256][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Audio/Smoke01_Cue.uasset" to "../../../../ProjectROAR/ProjectROAR_Main/Content/MobileStarterContent/Audio/Smoke01_Cue.uasset"
-[2019.02.17-02.05.11:259][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Audio/Starter_Background_Cue.uasset" to "../../../../ProjectROAR/ProjectROAR_Main/Content/MobileStarterContent/Audio/Starter_Background_Cue.uasset"
-[2019.02.17-02.05.11:263][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Audio/Starter_Birds01.uasset" to "../../../../ProjectROAR/ProjectROAR_Main/Content/MobileStarterContent/Audio/Starter_Birds01.uasset"
-[2019.02.17-02.05.11:269][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Audio/Starter_Music01.uasset" to "../../../../ProjectROAR/ProjectROAR_Main/Content/MobileStarterContent/Audio/Starter_Music01.uasset"
-[2019.02.17-02.05.11:290][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Audio/Starter_Music_Cue.uasset" to "../../../../ProjectROAR/ProjectROAR_Main/Content/MobileStarterContent/Audio/Starter_Music_Cue.uasset"
-[2019.02.17-02.05.11:294][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Audio/Starter_Wind05.uasset" to "../../../../ProjectROAR/ProjectROAR_Main/Content/MobileStarterContent/Audio/Starter_Wind05.uasset"
-[2019.02.17-02.05.11:299][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Audio/Starter_Wind06.uasset" to "../../../../ProjectROAR/ProjectROAR_Main/Content/MobileStarterContent/Audio/Starter_Wind06.uasset"
-[2019.02.17-02.05.11:302][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Audio/Steam01.uasset" to "../../../../ProjectROAR/ProjectROAR_Main/Content/MobileStarterContent/Audio/Steam01.uasset"
-[2019.02.17-02.05.11:305][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Audio/Steam01_Cue.uasset" to "../../../../ProjectROAR/ProjectROAR_Main/Content/MobileStarterContent/Audio/Steam01_Cue.uasset"
-[2019.02.17-02.05.11:309][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Blueprints/Blueprint_CeilingLight.uasset" to "../../../../ProjectROAR/ProjectROAR_Main/Content/MobileStarterContent/Blueprints/Blueprint_CeilingLight.uasset"
-[2019.02.17-02.05.11:313][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Blueprints/Blueprint_Effect_Explosion.uasset" to "../../../../ProjectROAR/ProjectROAR_Main/Content/MobileStarterContent/Blueprints/Blueprint_Effect_Explosion.uasset"
-[2019.02.17-02.05.11:317][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Blueprints/Blueprint_Effect_Fire.uasset" to "../../../../ProjectROAR/ProjectROAR_Main/Content/MobileStarterContent/Blueprints/Blueprint_Effect_Fire.uasset"
-[2019.02.17-02.05.11:321][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Blueprints/Blueprint_Effect_Smoke.uasset" to "../../../../ProjectROAR/ProjectROAR_Main/Content/MobileStarterContent/Blueprints/Blueprint_Effect_Smoke.uasset"
-[2019.02.17-02.05.11:324][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Blueprints/Blueprint_Effect_Sparks.uasset" to "../../../../ProjectROAR/ProjectROAR_Main/Content/MobileStarterContent/Blueprints/Blueprint_Effect_Sparks.uasset"
-[2019.02.17-02.05.11:328][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Blueprints/Blueprint_WallSconce.uasset" to "../../../../ProjectROAR/ProjectROAR_Main/Content/MobileStarterContent/Blueprints/Blueprint_WallSconce.uasset"
-[2019.02.17-02.05.11:332][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Maps/Minimal_Default.umap" to "../../../../ProjectROAR/ProjectROAR_Main/Content/MobileStarterContent/Maps/Minimal_Default.umap"
-[2019.02.17-02.05.11:336][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Maps/Minimal_Default_BuiltData.uasset" to "../../../../ProjectROAR/ProjectROAR_Main/Content/MobileStarterContent/Maps/Minimal_Default_BuiltData.uasset"
-[2019.02.17-02.05.11:339][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Maps/StarterMap.umap" to "../../../../ProjectROAR/ProjectROAR_Main/Content/MobileStarterContent/Maps/StarterMap.umap"
-[2019.02.17-02.05.11:350][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Maps/StarterMap_BuiltData.uasset" to "../../../../ProjectROAR/ProjectROAR_Main/Content/MobileStarterContent/Maps/StarterMap_BuiltData.uasset"
-[2019.02.17-02.05.11:353][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Materials/M_Basic_Floor.uasset" to "../../../../ProjectROAR/ProjectROAR_Main/Content/MobileStarterContent/Materials/M_Basic_Floor.uasset"
-[2019.02.17-02.05.11:356][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Materials/M_Basic_Wall.uasset" to "../../../../ProjectROAR/ProjectROAR_Main/Content/MobileStarterContent/Materials/M_Basic_Wall.uasset"
-[2019.02.17-02.05.11:360][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Materials/M_Brick_Clay_Beveled.uasset" to "../../../../ProjectROAR/ProjectROAR_Main/Content/MobileStarterContent/Materials/M_Brick_Clay_Beveled.uasset"
-[2019.02.17-02.05.11:364][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Materials/M_Brick_Clay_New.uasset" to "../../../../ProjectROAR/ProjectROAR_Main/Content/MobileStarterContent/Materials/M_Brick_Clay_New.uasset"
-[2019.02.17-02.05.11:367][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Materials/M_Brick_Clay_Old.uasset" to "../../../../ProjectROAR/ProjectROAR_Main/Content/MobileStarterContent/Materials/M_Brick_Clay_Old.uasset"
-[2019.02.17-02.05.11:371][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Materials/M_Brick_Cut_Stone.uasset" to "../../../../ProjectROAR/ProjectROAR_Main/Content/MobileStarterContent/Materials/M_Brick_Cut_Stone.uasset"
-[2019.02.17-02.05.11:375][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Materials/M_Brick_Hewn_Stone.uasset" to "../../../../ProjectROAR/ProjectROAR_Main/Content/MobileStarterContent/Materials/M_Brick_Hewn_Stone.uasset"
-[2019.02.17-02.05.11:378][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Materials/M_Ceramic_Tile_Checker.uasset" to "../../../../ProjectROAR/ProjectROAR_Main/Content/MobileStarterContent/Materials/M_Ceramic_Tile_Checker.uasset"
-[2019.02.17-02.05.11:381][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Materials/M_CobbleStone_Pebble.uasset" to "../../../../ProjectROAR/ProjectROAR_Main/Content/MobileStarterContent/Materials/M_CobbleStone_Pebble.uasset"
-[2019.02.17-02.05.11:384][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Materials/M_CobbleStone_Rough.uasset" to "../../../../ProjectROAR/ProjectROAR_Main/Content/MobileStarterContent/Materials/M_CobbleStone_Rough.uasset"
-[2019.02.17-02.05.11:388][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Materials/M_CobbleStone_Smooth.uasset" to "../../../../ProjectROAR/ProjectROAR_Main/Content/MobileStarterContent/Materials/M_CobbleStone_Smooth.uasset"
-[2019.02.17-02.05.11:391][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Materials/M_Concrete_Grime.uasset" to "../../../../ProjectROAR/ProjectROAR_Main/Content/MobileStarterContent/Materials/M_Concrete_Grime.uasset"
-[2019.02.17-02.05.11:395][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Materials/M_Concrete_Panels.uasset" to "../../../../ProjectROAR/ProjectROAR_Main/Content/MobileStarterContent/Materials/M_Concrete_Panels.uasset"
-[2019.02.17-02.05.11:397][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Materials/M_Concrete_Poured.uasset" to "../../../../ProjectROAR/ProjectROAR_Main/Content/MobileStarterContent/Materials/M_Concrete_Poured.uasset"
-[2019.02.17-02.05.11:400][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Materials/M_Concrete_Tiles.uasset" to "../../../../ProjectROAR/ProjectROAR_Main/Content/MobileStarterContent/Materials/M_Concrete_Tiles.uasset"
-[2019.02.17-02.05.11:404][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Materials/M_Glass.uasset" to "../../../../ProjectROAR/ProjectROAR_Main/Content/MobileStarterContent/Materials/M_Glass.uasset"
-[2019.02.17-02.05.11:407][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Materials/M_Ground_Grass.uasset" to "../../../../ProjectROAR/ProjectROAR_Main/Content/MobileStarterContent/Materials/M_Ground_Grass.uasset"
-[2019.02.17-02.05.11:411][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Materials/M_Ground_Gravel.uasset" to "../../../../ProjectROAR/ProjectROAR_Main/Content/MobileStarterContent/Materials/M_Ground_Gravel.uasset"
-[2019.02.17-02.05.11:414][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Materials/M_Ground_Moss.uasset" to "../../../../ProjectROAR/ProjectROAR_Main/Content/MobileStarterContent/Materials/M_Ground_Moss.uasset"
-[2019.02.17-02.05.11:418][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Materials/M_Metal_Brushed_Nickel.uasset" to "../../../../ProjectROAR/ProjectROAR_Main/Content/MobileStarterContent/Materials/M_Metal_Brushed_Nickel.uasset"
-[2019.02.17-02.05.11:421][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Materials/M_Metal_Burnished_Steel.uasset" to "../../../../ProjectROAR/ProjectROAR_Main/Content/MobileStarterContent/Materials/M_Metal_Burnished_Steel.uasset"
-[2019.02.17-02.05.11:424][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Materials/M_Metal_Chrome.uasset" to "../../../../ProjectROAR/ProjectROAR_Main/Content/MobileStarterContent/Materials/M_Metal_Chrome.uasset"
-[2019.02.17-02.05.11:428][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Materials/M_Metal_Copper.uasset" to "../../../../ProjectROAR/ProjectROAR_Main/Content/MobileStarterContent/Materials/M_Metal_Copper.uasset"
-[2019.02.17-02.05.11:434][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Materials/M_Metal_Gold.uasset" to "../../../../ProjectROAR/ProjectROAR_Main/Content/MobileStarterContent/Materials/M_Metal_Gold.uasset"
-[2019.02.17-02.05.11:438][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Materials/M_Metal_Rust.uasset" to "../../../../ProjectROAR/ProjectROAR_Main/Content/MobileStarterContent/Materials/M_Metal_Rust.uasset"
-[2019.02.17-02.05.11:442][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Materials/M_Metal_Steel.uasset" to "../../../../ProjectROAR/ProjectROAR_Main/Content/MobileStarterContent/Materials/M_Metal_Steel.uasset"
-[2019.02.17-02.05.11:446][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Materials/M_Rock_Basalt.uasset" to "../../../../ProjectROAR/ProjectROAR_Main/Content/MobileStarterContent/Materials/M_Rock_Basalt.uasset"
-[2019.02.17-02.05.11:450][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Materials/M_Rock_Marble_Polished.uasset" to "../../../../ProjectROAR/ProjectROAR_Main/Content/MobileStarterContent/Materials/M_Rock_Marble_Polished.uasset"
-[2019.02.17-02.05.11:454][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Materials/M_Rock_Sandstone.uasset" to "../../../../ProjectROAR/ProjectROAR_Main/Content/MobileStarterContent/Materials/M_Rock_Sandstone.uasset"
-[2019.02.17-02.05.11:458][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Materials/M_Rock_Slate.uasset" to "../../../../ProjectROAR/ProjectROAR_Main/Content/MobileStarterContent/Materials/M_Rock_Slate.uasset"
-[2019.02.17-02.05.11:462][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Materials/M_Tech_Checker_Dot.uasset" to "../../../../ProjectROAR/ProjectROAR_Main/Content/MobileStarterContent/Materials/M_Tech_Checker_Dot.uasset"
-[2019.02.17-02.05.11:466][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Materials/M_Tech_Hex_Tile.uasset" to "../../../../ProjectROAR/ProjectROAR_Main/Content/MobileStarterContent/Materials/M_Tech_Hex_Tile.uasset"
-[2019.02.17-02.05.11:470][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Materials/M_Tech_Hex_Tile_Pulse.uasset" to "../../../../ProjectROAR/ProjectROAR_Main/Content/MobileStarterContent/Materials/M_Tech_Hex_Tile_Pulse.uasset"
-[2019.02.17-02.05.11:473][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Materials/M_Tech_Panel.uasset" to "../../../../ProjectROAR/ProjectROAR_Main/Content/MobileStarterContent/Materials/M_Tech_Panel.uasset"
-[2019.02.17-02.05.11:479][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Materials/M_Water_Lake.uasset" to "../../../../ProjectROAR/ProjectROAR_Main/Content/MobileStarterContent/Materials/M_Water_Lake.uasset"
-[2019.02.17-02.05.11:483][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Materials/M_Water_Ocean.uasset" to "../../../../ProjectROAR/ProjectROAR_Main/Content/MobileStarterContent/Materials/M_Water_Ocean.uasset"
-[2019.02.17-02.05.11:486][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Materials/M_Wood_Floor_Walnut_Polished.uasset" to "../../../../ProjectROAR/ProjectROAR_Main/Content/MobileStarterContent/Materials/M_Wood_Floor_Walnut_Polished.uasset"
-[2019.02.17-02.05.11:490][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Materials/M_Wood_Floor_Walnut_Worn.uasset" to "../../../../ProjectROAR/ProjectROAR_Main/Content/MobileStarterContent/Materials/M_Wood_Floor_Walnut_Worn.uasset"
-[2019.02.17-02.05.11:493][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Materials/M_Wood_Oak.uasset" to "../../../../ProjectROAR/ProjectROAR_Main/Content/MobileStarterContent/Materials/M_Wood_Oak.uasset"
-[2019.02.17-02.05.11:498][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Materials/M_Wood_Pine.uasset" to "../../../../ProjectROAR/ProjectROAR_Main/Content/MobileStarterContent/Materials/M_Wood_Pine.uasset"
-[2019.02.17-02.05.11:504][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Materials/M_Wood_Walnut.uasset" to "../../../../ProjectROAR/ProjectROAR_Main/Content/MobileStarterContent/Materials/M_Wood_Walnut.uasset"
-[2019.02.17-02.05.11:508][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Particles/P_Ambient_Dust.uasset" to "../../../../ProjectROAR/ProjectROAR_Main/Content/MobileStarterContent/Particles/P_Ambient_Dust.uasset"
-[2019.02.17-02.05.11:511][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Particles/P_Explosion.uasset" to "../../../../ProjectROAR/ProjectROAR_Main/Content/MobileStarterContent/Particles/P_Explosion.uasset"
-[2019.02.17-02.05.11:515][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Particles/P_Fire.uasset" to "../../../../ProjectROAR/ProjectROAR_Main/Content/MobileStarterContent/Particles/P_Fire.uasset"
-[2019.02.17-02.05.11:519][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Particles/P_Smoke.uasset" to "../../../../ProjectROAR/ProjectROAR_Main/Content/MobileStarterContent/Particles/P_Smoke.uasset"
-[2019.02.17-02.05.11:523][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Particles/P_Sparks.uasset" to "../../../../ProjectROAR/ProjectROAR_Main/Content/MobileStarterContent/Particles/P_Sparks.uasset"
-[2019.02.17-02.05.11:526][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Particles/Materials/M_Burst.uasset" to "../../../../ProjectROAR/ProjectROAR_Main/Content/MobileStarterContent/Particles/Materials/M_Burst.uasset"
-[2019.02.17-02.05.11:531][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Particles/Materials/M_Dust_Particle.uasset" to "../../../../ProjectROAR/ProjectROAR_Main/Content/MobileStarterContent/Particles/Materials/M_Dust_Particle.uasset"
-[2019.02.17-02.05.11:534][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Particles/Materials/M_explosion_subUV.uasset" to "../../../../ProjectROAR/ProjectROAR_Main/Content/MobileStarterContent/Particles/Materials/M_explosion_subUV.uasset"
-[2019.02.17-02.05.11:538][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Particles/Materials/M_Fire_SubUV.uasset" to "../../../../ProjectROAR/ProjectROAR_Main/Content/MobileStarterContent/Particles/Materials/M_Fire_SubUV.uasset"
-[2019.02.17-02.05.11:541][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Particles/Materials/m_flare_01.uasset" to "../../../../ProjectROAR/ProjectROAR_Main/Content/MobileStarterContent/Particles/Materials/m_flare_01.uasset"
-[2019.02.17-02.05.11:544][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Particles/Materials/M_Radial_Gradient.uasset" to "../../../../ProjectROAR/ProjectROAR_Main/Content/MobileStarterContent/Particles/Materials/M_Radial_Gradient.uasset"
-[2019.02.17-02.05.11:549][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Particles/Materials/M_radial_ramp.uasset" to "../../../../ProjectROAR/ProjectROAR_Main/Content/MobileStarterContent/Particles/Materials/M_radial_ramp.uasset"
-[2019.02.17-02.05.11:552][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Particles/Materials/M_smoke_subUV.uasset" to "../../../../ProjectROAR/ProjectROAR_Main/Content/MobileStarterContent/Particles/Materials/M_smoke_subUV.uasset"
-[2019.02.17-02.05.11:556][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Particles/Materials/M_Spark.uasset" to "../../../../ProjectROAR/ProjectROAR_Main/Content/MobileStarterContent/Particles/Materials/M_Spark.uasset"
-[2019.02.17-02.05.11:559][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Props/MaterialSphere.uasset" to "../../../../ProjectROAR/ProjectROAR_Main/Content/MobileStarterContent/Props/MaterialSphere.uasset"
-[2019.02.17-02.05.11:566][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Props/SM_Bush.uasset" to "../../../../ProjectROAR/ProjectROAR_Main/Content/MobileStarterContent/Props/SM_Bush.uasset"
-[2019.02.17-02.05.11:570][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Props/SM_Chair.uasset" to "../../../../ProjectROAR/ProjectROAR_Main/Content/MobileStarterContent/Props/SM_Chair.uasset"
-[2019.02.17-02.05.11:573][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Props/SM_CornerFrame.uasset" to "../../../../ProjectROAR/ProjectROAR_Main/Content/MobileStarterContent/Props/SM_CornerFrame.uasset"
-[2019.02.17-02.05.11:577][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Props/SM_Couch.uasset" to "../../../../ProjectROAR/ProjectROAR_Main/Content/MobileStarterContent/Props/SM_Couch.uasset"
-[2019.02.17-02.05.11:580][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Props/SM_Door.uasset" to "../../../../ProjectROAR/ProjectROAR_Main/Content/MobileStarterContent/Props/SM_Door.uasset"
-[2019.02.17-02.05.11:583][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Props/SM_DoorFrame.uasset" to "../../../../ProjectROAR/ProjectROAR_Main/Content/MobileStarterContent/Props/SM_DoorFrame.uasset"
-[2019.02.17-02.05.11:588][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Props/SM_GlassWindow.uasset" to "../../../../ProjectROAR/ProjectROAR_Main/Content/MobileStarterContent/Props/SM_GlassWindow.uasset"
-[2019.02.17-02.05.11:592][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Props/SM_Lamp_Ceiling.uasset" to "../../../../ProjectROAR/ProjectROAR_Main/Content/MobileStarterContent/Props/SM_Lamp_Ceiling.uasset"
-[2019.02.17-02.05.11:596][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Props/SM_Lamp_Wall.uasset" to "../../../../ProjectROAR/ProjectROAR_Main/Content/MobileStarterContent/Props/SM_Lamp_Wall.uasset"
-[2019.02.17-02.05.11:600][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Props/SM_MatPreviewMesh_02.uasset" to "../../../../ProjectROAR/ProjectROAR_Main/Content/MobileStarterContent/Props/SM_MatPreviewMesh_02.uasset"
-[2019.02.17-02.05.11:603][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Props/SM_PillarFrame.uasset" to "../../../../ProjectROAR/ProjectROAR_Main/Content/MobileStarterContent/Props/SM_PillarFrame.uasset"
-[2019.02.17-02.05.11:607][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Props/SM_PillarFrame300.uasset" to "../../../../ProjectROAR/ProjectROAR_Main/Content/MobileStarterContent/Props/SM_PillarFrame300.uasset"
-[2019.02.17-02.05.11:610][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Props/SM_Rock.uasset" to "../../../../ProjectROAR/ProjectROAR_Main/Content/MobileStarterContent/Props/SM_Rock.uasset"
-[2019.02.17-02.05.11:614][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Props/SM_Shelf.uasset" to "../../../../ProjectROAR/ProjectROAR_Main/Content/MobileStarterContent/Props/SM_Shelf.uasset"
-[2019.02.17-02.05.11:618][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Props/SM_Stairs.uasset" to "../../../../ProjectROAR/ProjectROAR_Main/Content/MobileStarterContent/Props/SM_Stairs.uasset"
-[2019.02.17-02.05.11:621][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Props/SM_Statue.uasset" to "../../../../ProjectROAR/ProjectROAR_Main/Content/MobileStarterContent/Props/SM_Statue.uasset"
-[2019.02.17-02.05.11:626][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Props/SM_TableRound.uasset" to "../../../../ProjectROAR/ProjectROAR_Main/Content/MobileStarterContent/Props/SM_TableRound.uasset"
-[2019.02.17-02.05.11:629][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Props/SM_WindowFrame.uasset" to "../../../../ProjectROAR/ProjectROAR_Main/Content/MobileStarterContent/Props/SM_WindowFrame.uasset"
-[2019.02.17-02.05.11:633][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Props/Materials/M_Bush.uasset" to "../../../../ProjectROAR/ProjectROAR_Main/Content/MobileStarterContent/Props/Materials/M_Bush.uasset"
-[2019.02.17-02.05.11:636][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Props/Materials/M_Chair.uasset" to "../../../../ProjectROAR/ProjectROAR_Main/Content/MobileStarterContent/Props/Materials/M_Chair.uasset"
-[2019.02.17-02.05.11:640][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Props/Materials/M_Door.uasset" to "../../../../ProjectROAR/ProjectROAR_Main/Content/MobileStarterContent/Props/Materials/M_Door.uasset"
-[2019.02.17-02.05.11:643][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Props/Materials/M_Frame.uasset" to "../../../../ProjectROAR/ProjectROAR_Main/Content/MobileStarterContent/Props/Materials/M_Frame.uasset"
-[2019.02.17-02.05.11:646][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Props/Materials/M_Lamp.uasset" to "../../../../ProjectROAR/ProjectROAR_Main/Content/MobileStarterContent/Props/Materials/M_Lamp.uasset"
-[2019.02.17-02.05.11:649][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Props/Materials/M_MaterialSphere.uasset" to "../../../../ProjectROAR/ProjectROAR_Main/Content/MobileStarterContent/Props/Materials/M_MaterialSphere.uasset"
-[2019.02.17-02.05.11:652][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Props/Materials/M_MaterialSphere_Plain.uasset" to "../../../../ProjectROAR/ProjectROAR_Main/Content/MobileStarterContent/Props/Materials/M_MaterialSphere_Plain.uasset"
-[2019.02.17-02.05.11:655][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Props/Materials/M_Rock.uasset" to "../../../../ProjectROAR/ProjectROAR_Main/Content/MobileStarterContent/Props/Materials/M_Rock.uasset"
-[2019.02.17-02.05.11:658][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Props/Materials/M_Shelf.uasset" to "../../../../ProjectROAR/ProjectROAR_Main/Content/MobileStarterContent/Props/Materials/M_Shelf.uasset"
-[2019.02.17-02.05.11:662][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Props/Materials/M_Statue.uasset" to "../../../../ProjectROAR/ProjectROAR_Main/Content/MobileStarterContent/Props/Materials/M_Statue.uasset"
-[2019.02.17-02.05.11:665][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Props/Materials/M_StatueGlass.uasset" to "../../../../ProjectROAR/ProjectROAR_Main/Content/MobileStarterContent/Props/Materials/M_StatueGlass.uasset"
-[2019.02.17-02.05.11:669][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Props/Materials/M_TableRound.uasset" to "../../../../ProjectROAR/ProjectROAR_Main/Content/MobileStarterContent/Props/Materials/M_TableRound.uasset"
-[2019.02.17-02.05.11:675][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Shapes/Shape_Cone.uasset" to "../../../../ProjectROAR/ProjectROAR_Main/Content/MobileStarterContent/Shapes/Shape_Cone.uasset"
-[2019.02.17-02.05.11:678][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Shapes/Shape_Cube.uasset" to "../../../../ProjectROAR/ProjectROAR_Main/Content/MobileStarterContent/Shapes/Shape_Cube.uasset"
-[2019.02.17-02.05.11:682][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Shapes/Shape_Cylinder.uasset" to "../../../../ProjectROAR/ProjectROAR_Main/Content/MobileStarterContent/Shapes/Shape_Cylinder.uasset"
-[2019.02.17-02.05.11:685][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Shapes/Shape_NarrowCapsule.uasset" to "../../../../ProjectROAR/ProjectROAR_Main/Content/MobileStarterContent/Shapes/Shape_NarrowCapsule.uasset"
-[2019.02.17-02.05.11:689][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Shapes/Shape_Pipe.uasset" to "../../../../ProjectROAR/ProjectROAR_Main/Content/MobileStarterContent/Shapes/Shape_Pipe.uasset"
-[2019.02.17-02.05.11:692][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Shapes/Shape_Pipe_180.uasset" to "../../../../ProjectROAR/ProjectROAR_Main/Content/MobileStarterContent/Shapes/Shape_Pipe_180.uasset"
-[2019.02.17-02.05.11:695][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Shapes/Shape_Pipe_90.uasset" to "../../../../ProjectROAR/ProjectROAR_Main/Content/MobileStarterContent/Shapes/Shape_Pipe_90.uasset"
-[2019.02.17-02.05.11:699][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Shapes/Shape_Plane.uasset" to "../../../../ProjectROAR/ProjectROAR_Main/Content/MobileStarterContent/Shapes/Shape_Plane.uasset"
-[2019.02.17-02.05.11:702][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Shapes/Shape_QuadPyramid.uasset" to "../../../../ProjectROAR/ProjectROAR_Main/Content/MobileStarterContent/Shapes/Shape_QuadPyramid.uasset"
-[2019.02.17-02.05.11:706][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Shapes/Shape_Sphere.uasset" to "../../../../ProjectROAR/ProjectROAR_Main/Content/MobileStarterContent/Shapes/Shape_Sphere.uasset"
-[2019.02.17-02.05.11:708][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Shapes/Shape_Torus.uasset" to "../../../../ProjectROAR/ProjectROAR_Main/Content/MobileStarterContent/Shapes/Shape_Torus.uasset"
-[2019.02.17-02.05.11:712][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Shapes/Shape_Trim.uasset" to "../../../../ProjectROAR/ProjectROAR_Main/Content/MobileStarterContent/Shapes/Shape_Trim.uasset"
-[2019.02.17-02.05.11:715][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Shapes/Shape_Trim_90_In.uasset" to "../../../../ProjectROAR/ProjectROAR_Main/Content/MobileStarterContent/Shapes/Shape_Trim_90_In.uasset"
-[2019.02.17-02.05.11:720][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Shapes/Shape_Trim_90_Out.uasset" to "../../../../ProjectROAR/ProjectROAR_Main/Content/MobileStarterContent/Shapes/Shape_Trim_90_Out.uasset"
-[2019.02.17-02.05.11:724][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Shapes/Shape_TriPyramid.uasset" to "../../../../ProjectROAR/ProjectROAR_Main/Content/MobileStarterContent/Shapes/Shape_TriPyramid.uasset"
-[2019.02.17-02.05.11:727][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Shapes/Shape_Tube.uasset" to "../../../../ProjectROAR/ProjectROAR_Main/Content/MobileStarterContent/Shapes/Shape_Tube.uasset"
-[2019.02.17-02.05.11:731][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Shapes/Shape_Wedge_A.uasset" to "../../../../ProjectROAR/ProjectROAR_Main/Content/MobileStarterContent/Shapes/Shape_Wedge_A.uasset"
-[2019.02.17-02.05.11:735][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Shapes/Shape_Wedge_B.uasset" to "../../../../ProjectROAR/ProjectROAR_Main/Content/MobileStarterContent/Shapes/Shape_Wedge_B.uasset"
-[2019.02.17-02.05.11:738][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Shapes/Shape_WideCapsule.uasset" to "../../../../ProjectROAR/ProjectROAR_Main/Content/MobileStarterContent/Shapes/Shape_WideCapsule.uasset"
-[2019.02.17-02.05.11:743][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Textures/T_Brick_Clay_Beveled_D.uasset" to "../../../../ProjectROAR/ProjectROAR_Main/Content/MobileStarterContent/Textures/T_Brick_Clay_Beveled_D.uasset"
-[2019.02.17-02.05.11:747][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Textures/T_Brick_Clay_Beveled_M.uasset" to "../../../../ProjectROAR/ProjectROAR_Main/Content/MobileStarterContent/Textures/T_Brick_Clay_Beveled_M.uasset"
-[2019.02.17-02.05.11:751][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Textures/T_Brick_Clay_Beveled_N.uasset" to "../../../../ProjectROAR/ProjectROAR_Main/Content/MobileStarterContent/Textures/T_Brick_Clay_Beveled_N.uasset"
-[2019.02.17-02.05.11:756][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Textures/T_Brick_Clay_New_D.uasset" to "../../../../ProjectROAR/ProjectROAR_Main/Content/MobileStarterContent/Textures/T_Brick_Clay_New_D.uasset"
-[2019.02.17-02.05.11:760][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Textures/T_Brick_Clay_New_M.uasset" to "../../../../ProjectROAR/ProjectROAR_Main/Content/MobileStarterContent/Textures/T_Brick_Clay_New_M.uasset"
-[2019.02.17-02.05.11:764][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Textures/T_Brick_Clay_New_N.uasset" to "../../../../ProjectROAR/ProjectROAR_Main/Content/MobileStarterContent/Textures/T_Brick_Clay_New_N.uasset"
-[2019.02.17-02.05.11:771][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Textures/T_Brick_Clay_Old_D.uasset" to "../../../../ProjectROAR/ProjectROAR_Main/Content/MobileStarterContent/Textures/T_Brick_Clay_Old_D.uasset"
-[2019.02.17-02.05.11:776][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Textures/T_Brick_Clay_Old_N.uasset" to "../../../../ProjectROAR/ProjectROAR_Main/Content/MobileStarterContent/Textures/T_Brick_Clay_Old_N.uasset"
-[2019.02.17-02.05.11:780][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Textures/T_Brick_Cut_Stone_D.uasset" to "../../../../ProjectROAR/ProjectROAR_Main/Content/MobileStarterContent/Textures/T_Brick_Cut_Stone_D.uasset"
-[2019.02.17-02.05.11:784][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Textures/T_Brick_Cut_Stone_N.uasset" to "../../../../ProjectROAR/ProjectROAR_Main/Content/MobileStarterContent/Textures/T_Brick_Cut_Stone_N.uasset"
-[2019.02.17-02.05.11:794][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Textures/T_Brick_Hewn_Stone_D.uasset" to "../../../../ProjectROAR/ProjectROAR_Main/Content/MobileStarterContent/Textures/T_Brick_Hewn_Stone_D.uasset"
-[2019.02.17-02.05.11:799][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Textures/T_Brick_Hewn_Stone_M.uasset" to "../../../../ProjectROAR/ProjectROAR_Main/Content/MobileStarterContent/Textures/T_Brick_Hewn_Stone_M.uasset"
-[2019.02.17-02.05.11:804][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Textures/T_Brick_Hewn_Stone_N.uasset" to "../../../../ProjectROAR/ProjectROAR_Main/Content/MobileStarterContent/Textures/T_Brick_Hewn_Stone_N.uasset"
-[2019.02.17-02.05.11:809][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Textures/T_Burst_M.uasset" to "../../../../ProjectROAR/ProjectROAR_Main/Content/MobileStarterContent/Textures/T_Burst_M.uasset"
-[2019.02.17-02.05.11:812][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Textures/T_Bush_D.uasset" to "../../../../ProjectROAR/ProjectROAR_Main/Content/MobileStarterContent/Textures/T_Bush_D.uasset"
-[2019.02.17-02.05.11:816][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Textures/T_Bush_N.uasset" to "../../../../ProjectROAR/ProjectROAR_Main/Content/MobileStarterContent/Textures/T_Bush_N.uasset"
-[2019.02.17-02.05.11:823][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Textures/T_Ceramic_Tile_M.uasset" to "../../../../ProjectROAR/ProjectROAR_Main/Content/MobileStarterContent/Textures/T_Ceramic_Tile_M.uasset"
-[2019.02.17-02.05.11:826][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Textures/T_Ceramic_Tile_N.uasset" to "../../../../ProjectROAR/ProjectROAR_Main/Content/MobileStarterContent/Textures/T_Ceramic_Tile_N.uasset"
-[2019.02.17-02.05.11:829][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Textures/T_Chair_M.uasset" to "../../../../ProjectROAR/ProjectROAR_Main/Content/MobileStarterContent/Textures/T_Chair_M.uasset"
-[2019.02.17-02.05.11:841][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Textures/T_Chair_N.uasset" to "../../../../ProjectROAR/ProjectROAR_Main/Content/MobileStarterContent/Textures/T_Chair_N.uasset"
-[2019.02.17-02.05.11:845][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Textures/T_Checker_Noise_M.uasset" to "../../../../ProjectROAR/ProjectROAR_Main/Content/MobileStarterContent/Textures/T_Checker_Noise_M.uasset"
-[2019.02.17-02.05.11:849][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Textures/T_CobbleStone_Pebble_D.uasset" to "../../../../ProjectROAR/ProjectROAR_Main/Content/MobileStarterContent/Textures/T_CobbleStone_Pebble_D.uasset"
-[2019.02.17-02.05.11:853][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Textures/T_CobbleStone_Pebble_M.uasset" to "../../../../ProjectROAR/ProjectROAR_Main/Content/MobileStarterContent/Textures/T_CobbleStone_Pebble_M.uasset"
-[2019.02.17-02.05.11:857][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Textures/T_CobbleStone_Pebble_N.uasset" to "../../../../ProjectROAR/ProjectROAR_Main/Content/MobileStarterContent/Textures/T_CobbleStone_Pebble_N.uasset"
-[2019.02.17-02.05.11:860][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Textures/T_CobbleStone_Rough_D.uasset" to "../../../../ProjectROAR/ProjectROAR_Main/Content/MobileStarterContent/Textures/T_CobbleStone_Rough_D.uasset"
-[2019.02.17-02.05.11:864][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Textures/T_CobbleStone_Rough_N.uasset" to "../../../../ProjectROAR/ProjectROAR_Main/Content/MobileStarterContent/Textures/T_CobbleStone_Rough_N.uasset"
-[2019.02.17-02.05.11:868][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Textures/T_CobbleStone_Smooth_D.uasset" to "../../../../ProjectROAR/ProjectROAR_Main/Content/MobileStarterContent/Textures/T_CobbleStone_Smooth_D.uasset"
-[2019.02.17-02.05.11:873][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Textures/T_CobbleStone_Smooth_M.uasset" to "../../../../ProjectROAR/ProjectROAR_Main/Content/MobileStarterContent/Textures/T_CobbleStone_Smooth_M.uasset"
-[2019.02.17-02.05.11:878][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Textures/T_CobbleStone_Smooth_N.uasset" to "../../../../ProjectROAR/ProjectROAR_Main/Content/MobileStarterContent/Textures/T_CobbleStone_Smooth_N.uasset"
-[2019.02.17-02.05.11:882][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Textures/T_Concrete_Grime_D.uasset" to "../../../../ProjectROAR/ProjectROAR_Main/Content/MobileStarterContent/Textures/T_Concrete_Grime_D.uasset"
-[2019.02.17-02.05.11:887][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Textures/T_Concrete_Panels_D.uasset" to "../../../../ProjectROAR/ProjectROAR_Main/Content/MobileStarterContent/Textures/T_Concrete_Panels_D.uasset"
-[2019.02.17-02.05.11:891][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Textures/T_Concrete_Panels_N.uasset" to "../../../../ProjectROAR/ProjectROAR_Main/Content/MobileStarterContent/Textures/T_Concrete_Panels_N.uasset"
-[2019.02.17-02.05.11:895][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Textures/T_Concrete_Poured_D.uasset" to "../../../../ProjectROAR/ProjectROAR_Main/Content/MobileStarterContent/Textures/T_Concrete_Poured_D.uasset"
-[2019.02.17-02.05.11:899][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Textures/T_Concrete_Poured_N.uasset" to "../../../../ProjectROAR/ProjectROAR_Main/Content/MobileStarterContent/Textures/T_Concrete_Poured_N.uasset"
-[2019.02.17-02.05.11:912][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Textures/T_Concrete_Tiles_D.uasset" to "../../../../ProjectROAR/ProjectROAR_Main/Content/MobileStarterContent/Textures/T_Concrete_Tiles_D.uasset"
-[2019.02.17-02.05.11:916][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Textures/T_Concrete_Tiles_M.uasset" to "../../../../ProjectROAR/ProjectROAR_Main/Content/MobileStarterContent/Textures/T_Concrete_Tiles_M.uasset"
-[2019.02.17-02.05.11:921][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Textures/T_Concrete_Tiles_N.uasset" to "../../../../ProjectROAR/ProjectROAR_Main/Content/MobileStarterContent/Textures/T_Concrete_Tiles_N.uasset"
-[2019.02.17-02.05.11:924][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Textures/T_Concrete_Tiles_Variation_M.uasset" to "../../../../ProjectROAR/ProjectROAR_Main/Content/MobileStarterContent/Textures/T_Concrete_Tiles_Variation_M.uasset"
-[2019.02.17-02.05.11:927][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Textures/T_Detail_Rocky_N.uasset" to "../../../../ProjectROAR/ProjectROAR_Main/Content/MobileStarterContent/Textures/T_Detail_Rocky_N.uasset"
-[2019.02.17-02.05.11:931][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Textures/T_Door_M.uasset" to "../../../../ProjectROAR/ProjectROAR_Main/Content/MobileStarterContent/Textures/T_Door_M.uasset"
-[2019.02.17-02.05.11:934][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Textures/T_Door_N.uasset" to "../../../../ProjectROAR/ProjectROAR_Main/Content/MobileStarterContent/Textures/T_Door_N.uasset"
-[2019.02.17-02.05.11:937][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Textures/T_Dust_Particle_D.uasset" to "../../../../ProjectROAR/ProjectROAR_Main/Content/MobileStarterContent/Textures/T_Dust_Particle_D.uasset"
-[2019.02.17-02.05.11:941][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Textures/T_Explosion_SubUV.uasset" to "../../../../ProjectROAR/ProjectROAR_Main/Content/MobileStarterContent/Textures/T_Explosion_SubUV.uasset"
-[2019.02.17-02.05.11:946][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Textures/T_Fire_SubUV.uasset" to "../../../../ProjectROAR/ProjectROAR_Main/Content/MobileStarterContent/Textures/T_Fire_SubUV.uasset"
-[2019.02.17-02.05.11:950][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Textures/T_Fire_Tiled_D.uasset" to "../../../../ProjectROAR/ProjectROAR_Main/Content/MobileStarterContent/Textures/T_Fire_Tiled_D.uasset"
-[2019.02.17-02.05.11:954][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Textures/T_Frame_M.uasset" to "../../../../ProjectROAR/ProjectROAR_Main/Content/MobileStarterContent/Textures/T_Frame_M.uasset"
-[2019.02.17-02.05.11:956][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Textures/T_Frame_N.uasset" to "../../../../ProjectROAR/ProjectROAR_Main/Content/MobileStarterContent/Textures/T_Frame_N.uasset"
-[2019.02.17-02.05.11:959][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Textures/T_Gradinet_01.uasset" to "../../../../ProjectROAR/ProjectROAR_Main/Content/MobileStarterContent/Textures/T_Gradinet_01.uasset"
-[2019.02.17-02.05.11:963][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Textures/T_Ground_Grass_D.uasset" to "../../../../ProjectROAR/ProjectROAR_Main/Content/MobileStarterContent/Textures/T_Ground_Grass_D.uasset"
-[2019.02.17-02.05.11:969][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Textures/T_Ground_Grass_N.uasset" to "../../../../ProjectROAR/ProjectROAR_Main/Content/MobileStarterContent/Textures/T_Ground_Grass_N.uasset"
-[2019.02.17-02.05.11:973][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Textures/T_Ground_Gravel_D.uasset" to "../../../../ProjectROAR/ProjectROAR_Main/Content/MobileStarterContent/Textures/T_Ground_Gravel_D.uasset"
-[2019.02.17-02.05.11:977][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Textures/T_Ground_Gravel_N.uasset" to "../../../../ProjectROAR/ProjectROAR_Main/Content/MobileStarterContent/Textures/T_Ground_Gravel_N.uasset"
-[2019.02.17-02.05.11:982][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Textures/T_ground_Moss_D.uasset" to "../../../../ProjectROAR/ProjectROAR_Main/Content/MobileStarterContent/Textures/T_ground_Moss_D.uasset"
-[2019.02.17-02.05.11:986][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Textures/T_Ground_Moss_N.uasset" to "../../../../ProjectROAR/ProjectROAR_Main/Content/MobileStarterContent/Textures/T_Ground_Moss_N.uasset"
-[2019.02.17-02.05.11:992][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Textures/T_Lamp_M.uasset" to "../../../../ProjectROAR/ProjectROAR_Main/Content/MobileStarterContent/Textures/T_Lamp_M.uasset"
-[2019.02.17-02.05.12:005][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Textures/T_Lamp_N.uasset" to "../../../../ProjectROAR/ProjectROAR_Main/Content/MobileStarterContent/Textures/T_Lamp_N.uasset"
-[2019.02.17-02.05.12:015][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Textures/T_MacroVariation.uasset" to "../../../../ProjectROAR/ProjectROAR_Main/Content/MobileStarterContent/Textures/T_MacroVariation.uasset"
-[2019.02.17-02.05.12:019][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Textures/T_Metal_Aluminum_D.uasset" to "../../../../ProjectROAR/ProjectROAR_Main/Content/MobileStarterContent/Textures/T_Metal_Aluminum_D.uasset"
-[2019.02.17-02.05.12:024][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Textures/T_Metal_Copper_D.uasset" to "../../../../ProjectROAR/ProjectROAR_Main/Content/MobileStarterContent/Textures/T_Metal_Copper_D.uasset"
-[2019.02.17-02.05.12:033][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Textures/T_Metal_Gold_D.uasset" to "../../../../ProjectROAR/ProjectROAR_Main/Content/MobileStarterContent/Textures/T_Metal_Gold_D.uasset"
-[2019.02.17-02.05.12:036][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Textures/T_Metal_Gold_N.uasset" to "../../../../ProjectROAR/ProjectROAR_Main/Content/MobileStarterContent/Textures/T_Metal_Gold_N.uasset"
-[2019.02.17-02.05.12:040][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Textures/T_Metal_Rust_D.uasset" to "../../../../ProjectROAR/ProjectROAR_Main/Content/MobileStarterContent/Textures/T_Metal_Rust_D.uasset"
-[2019.02.17-02.05.12:044][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Textures/T_Metal_Rust_N.uasset" to "../../../../ProjectROAR/ProjectROAR_Main/Content/MobileStarterContent/Textures/T_Metal_Rust_N.uasset"
-[2019.02.17-02.05.12:048][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Textures/T_Metal_Steel_D.uasset" to "../../../../ProjectROAR/ProjectROAR_Main/Content/MobileStarterContent/Textures/T_Metal_Steel_D.uasset"
-[2019.02.17-02.05.12:052][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Textures/T_Metal_Steel_N.uasset" to "../../../../ProjectROAR/ProjectROAR_Main/Content/MobileStarterContent/Textures/T_Metal_Steel_N.uasset"
-[2019.02.17-02.05.12:056][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Textures/T_Perlin_Noise_M.uasset" to "../../../../ProjectROAR/ProjectROAR_Main/Content/MobileStarterContent/Textures/T_Perlin_Noise_M.uasset"
-[2019.02.17-02.05.12:060][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Textures/T_RockMesh_M.uasset" to "../../../../ProjectROAR/ProjectROAR_Main/Content/MobileStarterContent/Textures/T_RockMesh_M.uasset"
-[2019.02.17-02.05.12:064][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Textures/T_RockMesh_N.uasset" to "../../../../ProjectROAR/ProjectROAR_Main/Content/MobileStarterContent/Textures/T_RockMesh_N.uasset"
-[2019.02.17-02.05.12:068][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Textures/T_Rock_Basalt_D.uasset" to "../../../../ProjectROAR/ProjectROAR_Main/Content/MobileStarterContent/Textures/T_Rock_Basalt_D.uasset"
-[2019.02.17-02.05.12:073][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Textures/T_Rock_Basalt_N.uasset" to "../../../../ProjectROAR/ProjectROAR_Main/Content/MobileStarterContent/Textures/T_Rock_Basalt_N.uasset"
-[2019.02.17-02.05.12:077][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Textures/T_Rock_Marble_Polished_D.uasset" to "../../../../ProjectROAR/ProjectROAR_Main/Content/MobileStarterContent/Textures/T_Rock_Marble_Polished_D.uasset"
-[2019.02.17-02.05.12:081][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Textures/T_Rock_Sandstone_D.uasset" to "../../../../ProjectROAR/ProjectROAR_Main/Content/MobileStarterContent/Textures/T_Rock_Sandstone_D.uasset"
-[2019.02.17-02.05.12:099][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Textures/T_Rock_Sandstone_N.uasset" to "../../../../ProjectROAR/ProjectROAR_Main/Content/MobileStarterContent/Textures/T_Rock_Sandstone_N.uasset"
-[2019.02.17-02.05.12:103][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Textures/T_Rock_Slate_D.uasset" to "../../../../ProjectROAR/ProjectROAR_Main/Content/MobileStarterContent/Textures/T_Rock_Slate_D.uasset"
-[2019.02.17-02.05.12:108][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Textures/T_Rock_Slate_N.uasset" to "../../../../ProjectROAR/ProjectROAR_Main/Content/MobileStarterContent/Textures/T_Rock_Slate_N.uasset"
-[2019.02.17-02.05.12:112][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Textures/T_Rock_Smooth_Granite_D.uasset" to "../../../../ProjectROAR/ProjectROAR_Main/Content/MobileStarterContent/Textures/T_Rock_Smooth_Granite_D.uasset"
-[2019.02.17-02.05.12:116][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Textures/T_Shelf_M.uasset" to "../../../../ProjectROAR/ProjectROAR_Main/Content/MobileStarterContent/Textures/T_Shelf_M.uasset"
-[2019.02.17-02.05.12:122][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Textures/T_Shelf_N.uasset" to "../../../../ProjectROAR/ProjectROAR_Main/Content/MobileStarterContent/Textures/T_Shelf_N.uasset"
-[2019.02.17-02.05.12:125][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Textures/T_Single_Tile_N.uasset" to "../../../../ProjectROAR/ProjectROAR_Main/Content/MobileStarterContent/Textures/T_Single_Tile_N.uasset"
-[2019.02.17-02.05.12:129][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Textures/T_Smoke_SubUV.uasset" to "../../../../ProjectROAR/ProjectROAR_Main/Content/MobileStarterContent/Textures/T_Smoke_SubUV.uasset"
-[2019.02.17-02.05.12:134][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Textures/T_Smoke_Tiled_D.uasset" to "../../../../ProjectROAR/ProjectROAR_Main/Content/MobileStarterContent/Textures/T_Smoke_Tiled_D.uasset"
-[2019.02.17-02.05.12:137][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Textures/T_Spark_Core.uasset" to "../../../../ProjectROAR/ProjectROAR_Main/Content/MobileStarterContent/Textures/T_Spark_Core.uasset"
-[2019.02.17-02.05.12:140][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Textures/T_Statue_M.uasset" to "../../../../ProjectROAR/ProjectROAR_Main/Content/MobileStarterContent/Textures/T_Statue_M.uasset"
-[2019.02.17-02.05.12:144][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Textures/T_Statue_N.uasset" to "../../../../ProjectROAR/ProjectROAR_Main/Content/MobileStarterContent/Textures/T_Statue_N.uasset"
-[2019.02.17-02.05.12:147][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Textures/T_TableRound_M.uasset" to "../../../../ProjectROAR/ProjectROAR_Main/Content/MobileStarterContent/Textures/T_TableRound_M.uasset"
-[2019.02.17-02.05.12:150][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Textures/T_TableRound_N.uasset" to "../../../../ProjectROAR/ProjectROAR_Main/Content/MobileStarterContent/Textures/T_TableRound_N.uasset"
-[2019.02.17-02.05.12:154][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Textures/T_Tech_Dot_M.uasset" to "../../../../ProjectROAR/ProjectROAR_Main/Content/MobileStarterContent/Textures/T_Tech_Dot_M.uasset"
-[2019.02.17-02.05.12:157][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Textures/T_Tech_Dot_N.uasset" to "../../../../ProjectROAR/ProjectROAR_Main/Content/MobileStarterContent/Textures/T_Tech_Dot_N.uasset"
-[2019.02.17-02.05.12:161][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Textures/T_Tech_Hex_Tile_M.uasset" to "../../../../ProjectROAR/ProjectROAR_Main/Content/MobileStarterContent/Textures/T_Tech_Hex_Tile_M.uasset"
-[2019.02.17-02.05.12:164][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Textures/T_Tech_Hex_Tile_N.uasset" to "../../../../ProjectROAR/ProjectROAR_Main/Content/MobileStarterContent/Textures/T_Tech_Hex_Tile_N.uasset"
-[2019.02.17-02.05.12:167][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Textures/T_Tech_Panel_M.uasset" to "../../../../ProjectROAR/ProjectROAR_Main/Content/MobileStarterContent/Textures/T_Tech_Panel_M.uasset"
-[2019.02.17-02.05.12:172][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Textures/T_Tech_Panel_N.uasset" to "../../../../ProjectROAR/ProjectROAR_Main/Content/MobileStarterContent/Textures/T_Tech_Panel_N.uasset"
-[2019.02.17-02.05.12:175][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Textures/T_Water_M.uasset" to "../../../../ProjectROAR/ProjectROAR_Main/Content/MobileStarterContent/Textures/T_Water_M.uasset"
-[2019.02.17-02.05.12:179][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Textures/T_Water_N.uasset" to "../../../../ProjectROAR/ProjectROAR_Main/Content/MobileStarterContent/Textures/T_Water_N.uasset"
-[2019.02.17-02.05.12:183][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Textures/T_Wood_Floor_Walnut_D.uasset" to "../../../../ProjectROAR/ProjectROAR_Main/Content/MobileStarterContent/Textures/T_Wood_Floor_Walnut_D.uasset"
-[2019.02.17-02.05.12:187][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Textures/T_Wood_Floor_Walnut_M.uasset" to "../../../../ProjectROAR/ProjectROAR_Main/Content/MobileStarterContent/Textures/T_Wood_Floor_Walnut_M.uasset"
-[2019.02.17-02.05.12:190][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Textures/T_Wood_Floor_Walnut_N.uasset" to "../../../../ProjectROAR/ProjectROAR_Main/Content/MobileStarterContent/Textures/T_Wood_Floor_Walnut_N.uasset"
-[2019.02.17-02.05.12:195][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Textures/T_Wood_Oak_D.uasset" to "../../../../ProjectROAR/ProjectROAR_Main/Content/MobileStarterContent/Textures/T_Wood_Oak_D.uasset"
-[2019.02.17-02.05.12:200][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Textures/T_Wood_Oak_N.uasset" to "../../../../ProjectROAR/ProjectROAR_Main/Content/MobileStarterContent/Textures/T_Wood_Oak_N.uasset"
-[2019.02.17-02.05.12:203][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Textures/T_Wood_Pine_D.uasset" to "../../../../ProjectROAR/ProjectROAR_Main/Content/MobileStarterContent/Textures/T_Wood_Pine_D.uasset"
-[2019.02.17-02.05.12:207][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Textures/T_Wood_Pine_N.uasset" to "../../../../ProjectROAR/ProjectROAR_Main/Content/MobileStarterContent/Textures/T_Wood_Pine_N.uasset"
-[2019.02.17-02.05.12:211][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Textures/T_Wood_Walnut_D.uasset" to "../../../../ProjectROAR/ProjectROAR_Main/Content/MobileStarterContent/Textures/T_Wood_Walnut_D.uasset"
-[2019.02.17-02.05.12:214][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Textures/T_Wood_Walnut_N.uasset" to "../../../../ProjectROAR/ProjectROAR_Main/Content/MobileStarterContent/Textures/T_Wood_Walnut_N.uasset"
-[2019.02.17-02.05.12:255][  0]LogRenderer: Reallocating scene render targets to support 256x256 Format 10 NumSamples 1 (Frame:1).
-[2019.02.17-02.05.12:471][  0]LogSavePackage: Moving '../../../../ProjectROAR/ProjectROAR_Main/Saved/Floor_400x4002B93895246F4C2BE11EABE819E8A8DC2.tmp' to '../../../../ProjectROAR/ProjectROAR_Main/Content/MobileStarterContent/Architecture/Floor_400x400.uasset'
-[2019.02.17-02.05.12:475][  0]LogFeaturePack: Warning: Inserted 1 feature packs
-[2019.02.17-02.05.12:478][  0]Cmd: MAP LOAD FILE="../../../../ProjectROAR/ProjectROAR_Main/Content/RollingBP/Maps/RollingBPExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2019.02.17-02.05.12:478][  0]LightingResults: New page: Lighting Build
-[2019.02.17-02.05.12:480][  0]MapCheck: New page: Map Check
-[2019.02.17-02.05.12:480][  0]LightingResults: New page: Lighting Build
-[2019.02.17-02.05.12:551][  0]LogLinker: Warning: Asset '../../../../ProjectROAR/ProjectROAR_Main/Content/Rolling/Materials/M_Blue_Checker.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
-[2019.02.17-02.05.13:068][  0]LogAIModule: Creating AISystem for world RollingBPExampleMap
-[2019.02.17-02.05.13:078][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2019.02.17-02.05.13:099][  0]Cmd: MAP CHECKDEP NOCLEARLOG
-[2019.02.17-02.05.13:099][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.075ms to complete.
-[2019.02.17-02.05.13:099][  0]LogFileHelpers: Loading map 'RollingBPExampleMap' took 0.621
-[2019.02.17-02.05.13:183][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.02.17-02.05.13:188][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.02.17-02.05.13:193][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.02.17-02.05.13:198][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.02.17-02.05.13:202][  0]LogCollectionManager: Loaded 0 collections in 0.001356 seconds
-[2019.02.17-02.05.13:240][  0]LogFileCache: Scanning file cache for directory 'D:/Unreal Projects/ProjectROAR/ProjectROAR_Main/Saved/Collections/' took 0.01s
-[2019.02.17-02.05.13:240][  0]LogFileCache: Scanning file cache for directory 'D:/Unreal Projects/ProjectROAR/ProjectROAR_Main/Content/Developers/Alec/Collections/' took 0.01s
-[2019.02.17-02.05.13:240][  0]LogFileCache: Scanning file cache for directory 'D:/Unreal Projects/ProjectROAR/ProjectROAR_Main/Content/Collections/' took 0.01s
-[2019.02.17-02.05.13:240][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000000 seconds
-[2019.02.17-02.05.13:247][  0]LogContentBrowser: Native class hierarchy populated in 0.0069 seconds. Added 2651 classes and 620 folders.
-[2019.02.17-02.05.13:253][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0003 seconds. Added 0 classes and 0 folders.
-[2019.02.17-02.05.13:254][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.02.17-02.05.13:255][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.02.17-02.05.13:256][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.02.17-02.05.13:257][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.02.17-02.05.13:257][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.02.17-02.05.13:258][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.02.17-02.05.13:258][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.02.17-02.05.13:259][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.02.17-02.05.13:259][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.02.17-02.05.13:260][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.02.17-02.05.13:260][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.02.17-02.05.13:261][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.02.17-02.05.13:261][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.02.17-02.05.13:262][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.02.17-02.05.13:262][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.02.17-02.05.13:263][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.02.17-02.05.13:264][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.02.17-02.05.13:264][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.02.17-02.05.13:265][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.02.17-02.05.13:266][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.02.17-02.05.13:266][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.02.17-02.05.13:267][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.02.17-02.05.13:268][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.02.17-02.05.13:269][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.02.17-02.05.13:269][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.02.17-02.05.13:270][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.02.17-02.05.13:307][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0002 seconds. Added 0 classes and 0 folders.
-[2019.02.17-02.05.13:311][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0002 seconds. Added 1 classes and 2 folders.
-[2019.02.17-02.05.13:329][  0]LogSlate: Took 0.000222 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
-[2019.02.17-02.05.13:330][  0]LogSlate: Took 0.000152 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
-[2019.02.17-02.05.13:334][  0]LogSlate: Took 0.000151 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
-[2019.02.17-02.05.13:374][  0]LogRenderer: Reallocating scene render targets to support 1616x840 Format 10 NumSamples 1 (Frame:1).
-[2019.02.17-02.05.13:523][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0002 seconds. Added 0 classes and 0 folders.
-[2019.02.17-02.05.13:523][  0]LogLoad: (Engine Initialization) Total time: 10.19 seconds
-[2019.02.17-02.05.13:523][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
-[2019.02.17-02.05.13:663][  0]LogContentStreaming: Texture pool size now 1000 MB
-[2019.02.17-02.05.13:746][  4]LogAssetRegistry: Asset discovery search completed in 6.5364 seconds
-[2019.02.17-02.05.13:747][  4]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
-[2019.02.17-02.05.13:748][  4]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000040 seconds (updated 0 objects)
-[2019.02.17-02.23.30:823][525]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.02.17-02.23.31:084][531]LogSlate: Window 'Message Log' being destroyed
-[2019.02.17-02.23.31:105][531]LogSlate: Window 'ProjectROAR_Main - Unreal Editor' being destroyed
-[2019.02.17-02.23.31:106][531]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
-[2019.02.17-02.23.31:684][532]Cmd: QUIT_EDITOR
-[2019.02.17-02.23.32:220][532]LogExit: Preparing to exit.
-[2019.02.17-02.23.33:330][532]LogExit: Editor shut down
-[2019.02.17-02.23.33:330][532]LogExit: Transaction tracking system shut down
-[2019.02.17-02.23.35:776][532]LogExit: Object subsystem successfully closed.
-[2019.02.17-02.23.35:968][532]LogShaderCompilers: Display: Shaders left to compile 0
-[2019.02.17-02.23.35:983][532]LogD3D11RHI: Shutdown
-[2019.02.17-02.23.35:983][532]LogD3D11RHI: CleanupD3DDevice
-[2019.02.17-02.23.36:072][532]LogD3D11RHI: ~FD3D11DynamicRHI
-[2019.02.17-02.23.37:592][532]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (622)
-[2019.02.17-02.23.37:592][532]LogModuleManager: Shutting down and abandoning module SceneOutliner (620)
-[2019.02.17-02.23.37:598][532]LogModuleManager: Shutting down and abandoning module AddContentDialog (618)
-[2019.02.17-02.23.37:626][532]LogModuleManager: Shutting down and abandoning module WidgetCarousel (617)
-[2019.02.17-02.23.37:626][532]LogModuleManager: Shutting down and abandoning module EditorWidgets (614)
-[2019.02.17-02.23.37:626][532]LogModuleManager: Shutting down and abandoning module CollectionManager (612)
-[2019.02.17-02.23.37:636][532]LogModuleManager: Shutting down and abandoning module StatsViewer (610)
-[2019.02.17-02.23.37:648][532]LogModuleManager: Shutting down and abandoning module FoliageEdit (608)
-[2019.02.17-02.23.37:649][532]LogModuleManager: Shutting down and abandoning module LandscapeEditor (606)
-[2019.02.17-02.23.37:688][532]LogModuleManager: Shutting down and abandoning module MeshPaintMode (604)
-[2019.02.17-02.23.37:688][532]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (602)
-[2019.02.17-02.23.37:688][532]LogModuleManager: Shutting down and abandoning module ActorPickerMode (600)
-[2019.02.17-02.23.37:688][532]LogModuleManager: Shutting down and abandoning module GeometryMode (598)
-[2019.02.17-02.23.37:688][532]LogModuleManager: Shutting down and abandoning module TextureAlignMode (596)
-[2019.02.17-02.23.37:688][532]LogModuleManager: Shutting down and abandoning module BspMode (594)
-[2019.02.17-02.23.37:688][532]LogModuleManager: Shutting down and abandoning module PIEPreviewDeviceProfileSelector (592)
-[2019.02.17-02.23.37:707][532]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (590)
-[2019.02.17-02.23.37:718][532]LogModuleManager: Shutting down and abandoning module AutomationWorker (588)
-[2019.02.17-02.23.37:718][532]LogModuleManager: Shutting down and abandoning module AudioCaptureEditor (586)
-[2019.02.17-02.23.37:718][532]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (584)
-[2019.02.17-02.23.37:746][532]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (582)
-[2019.02.17-02.23.37:792][532]LogModuleManager: Shutting down and abandoning module PlacementMode (581)
-[2019.02.17-02.23.37:792][532]LogModuleManager: Shutting down and abandoning module MaterialEditor (580)
-[2019.02.17-02.23.37:821][532]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (576)
-[2019.02.17-02.23.37:822][532]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (574)
-[2019.02.17-02.23.37:822][532]LogModuleManager: Shutting down and abandoning module WebMMediaFactory (572)
-[2019.02.17-02.23.37:822][532]LogModuleManager: Shutting down and abandoning module WebMMediaEditor (570)
-[2019.02.17-02.23.37:822][532]LogModuleManager: Shutting down and abandoning module WebMMedia (568)
-[2019.02.17-02.23.37:841][532]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (566)
-[2019.02.17-02.23.37:867][532]LogModuleManager: Shutting down and abandoning module MediaCompositingEditor (564)
-[2019.02.17-02.23.37:894][532]LogModuleManager: Shutting down and abandoning module SequenceRecorder (563)
-[2019.02.17-02.23.37:894][532]LogModuleManager: Shutting down and abandoning module OpenExrWrapper (560)
-[2019.02.17-02.23.37:894][532]LogModuleManager: Shutting down and abandoning module ImgMediaFactory (558)
-[2019.02.17-02.23.37:894][532]LogModuleManager: Shutting down and abandoning module ImgMediaEditor (556)
-[2019.02.17-02.23.37:894][532]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (554)
-[2019.02.17-02.23.37:894][532]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (552)
-[2019.02.17-02.23.37:894][532]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (550)
-[2019.02.17-02.23.37:894][532]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (548)
-[2019.02.17-02.23.37:894][532]LogModuleManager: Shutting down and abandoning module MagicLeapCameraPreviewFactory (546)
-[2019.02.17-02.23.37:894][532]LogModuleManager: Shutting down and abandoning module MagicLeapMediaFactory (544)
-[2019.02.17-02.23.37:894][532]LogModuleManager: Shutting down and abandoning module MagicLeapMediaEditor (542)
-[2019.02.17-02.23.37:894][532]LogModuleManager: Shutting down and abandoning module CharacterAI (540)
-[2019.02.17-02.23.37:894][532]LogModuleManager: Shutting down and abandoning module SmartSnapping (538)
-[2019.02.17-02.23.37:894][532]LogModuleManager: Shutting down and abandoning module SessionServices (536)
-[2019.02.17-02.23.37:894][532]LogModuleManager: Shutting down and abandoning module ViewportSnapping (534)
-[2019.02.17-02.23.37:894][532]LogModuleManager: Shutting down and abandoning module ViewportInteraction (532)
-[2019.02.17-02.23.37:894][532]LogModuleManager: Shutting down and abandoning module ClothPainter (530)
-[2019.02.17-02.23.37:914][532]LogModuleManager: Shutting down and abandoning module SkeletalMeshEditor (529)
-[2019.02.17-02.23.37:921][532]LogModuleManager: Shutting down and abandoning module LogVisualizer (526)
-[2019.02.17-02.23.37:922][532]LogModuleManager: Shutting down and abandoning module IntroTutorials (524)
-[2019.02.17-02.23.37:959][532]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (523)
-[2019.02.17-02.23.37:962][532]LogModuleManager: Shutting down and abandoning module LuminPlatformEditor (520)
-[2019.02.17-02.23.37:962][532]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (518)
-[2019.02.17-02.23.37:963][532]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (516)
-[2019.02.17-02.23.37:963][532]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (514)
-[2019.02.17-02.23.37:963][532]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (513)
-[2019.02.17-02.23.38:471][532]LogModuleManager: Shutting down and abandoning module WindowsPlatformEditor (510)
-[2019.02.17-02.23.38:472][532]LogModuleManager: Shutting down and abandoning module LuminRuntimeSettings (508)
-[2019.02.17-02.23.38:472][532]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (506)
-[2019.02.17-02.23.38:472][532]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (504)
-[2019.02.17-02.23.38:472][532]LogModuleManager: Shutting down and abandoning module TimeManagementEditor (502)
-[2019.02.17-02.23.38:472][532]LogModuleManager: Shutting down and abandoning module InputBindingEditor (500)
-[2019.02.17-02.23.38:534][532]LogModuleManager: Shutting down and abandoning module MergeActors (498)
-[2019.02.17-02.23.38:554][532]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (496)
-[2019.02.17-02.23.38:561][532]LogModuleManager: Shutting down and abandoning module LocalizationService (495)
-[2019.02.17-02.23.38:565][532]LogModuleManager: Shutting down and abandoning module HardwareTargeting (492)
-[2019.02.17-02.23.38:565][532]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (490)
-[2019.02.17-02.23.38:576][532]LogModuleManager: Shutting down and abandoning module UndoHistory (488)
-[2019.02.17-02.23.38:588][532]LogModuleManager: Shutting down and abandoning module XmlParser (486)
-[2019.02.17-02.23.38:588][532]LogModuleManager: Shutting down and abandoning module Blutility (484)
-[2019.02.17-02.23.38:601][532]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (482)
-[2019.02.17-02.23.38:601][532]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (481)
-[2019.02.17-02.23.38:601][532]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (478)
-[2019.02.17-02.23.38:610][532]LogModuleManager: Shutting down and abandoning module SettingsEditor (476)
-[2019.02.17-02.23.38:623][532]LogModuleManager: Shutting down and abandoning module ProjectLauncher (474)
-[2019.02.17-02.23.38:630][532]LogModuleManager: Shutting down and abandoning module SessionFrontend (472)
-[2019.02.17-02.23.38:647][532]LogModuleManager: Shutting down and abandoning module ProfilerClient (470)
-[2019.02.17-02.23.38:657][532]LogModuleManager: Shutting down and abandoning module DeviceManager (468)
-[2019.02.17-02.23.38:667][532]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (467)
-[2019.02.17-02.23.38:731][532]LogModuleManager: Shutting down and abandoning module AutomationController (464)
-[2019.02.17-02.23.38:752][532]LogModuleManager: Shutting down and abandoning module AutomationWindow (462)
-[2019.02.17-02.23.38:779][532]LogModuleManager: Shutting down and abandoning module Layers (460)
-[2019.02.17-02.23.38:822][532]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (458)
-[2019.02.17-02.23.38:822][532]LogModuleManager: Shutting down and abandoning module DetailCustomizations (456)
-[2019.02.17-02.23.38:869][532]LogModuleManager: Shutting down and abandoning module PackagesDialog (454)
-[2019.02.17-02.23.38:884][532]LogModuleManager: Shutting down and abandoning module Persona (452)
-[2019.02.17-02.23.38:914][532]LogModuleManager: Shutting down and abandoning module AdvancedPreviewScene (451)
-[2019.02.17-02.23.38:915][532]LogModuleManager: Shutting down and abandoning module AnimGraph (449)
-[2019.02.17-02.23.38:926][532]LogModuleManager: Shutting down and abandoning module Kismet (446)
-[2019.02.17-02.23.38:978][532]LogModuleManager: Shutting down and abandoning module GraphEditor (444)
-[2019.02.17-02.23.39:035][532]LogModuleManager: Shutting down and abandoning module ClassViewer (442)
-[2019.02.17-02.23.39:035][532]LogModuleManager: Shutting down and abandoning module Toolbox (440)
-[2019.02.17-02.23.39:035][532]LogModuleManager: Shutting down and abandoning module ModuleUI (438)
-[2019.02.17-02.23.39:047][532]LogModuleManager: Shutting down and abandoning module MovieSceneTools (436)
-[2019.02.17-02.23.39:048][532]LogModuleManager: Shutting down and abandoning module OutputLog (434)
-[2019.02.17-02.23.39:048][532]LogModuleManager: Shutting down and abandoning module GammaUI (432)
-[2019.02.17-02.23.39:061][532]LogModuleManager: Shutting down and abandoning module Documentation (430)
-[2019.02.17-02.23.39:061][532]LogModuleManager: Shutting down and abandoning module MovieSceneTracks (428)
-[2019.02.17-02.23.39:061][532]LogModuleManager: Shutting down and abandoning module MovieScene (426)
-[2019.02.17-02.23.39:070][532]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (424)
-[2019.02.17-02.23.39:086][532]LogModuleManager: Shutting down and abandoning module LauncherPlatform (422)
-[2019.02.17-02.23.39:086][532]LogModuleManager: Shutting down and abandoning module AnalyticsET (420)
-[2019.02.17-02.23.39:086][532]LogModuleManager: Shutting down and abandoning module PortalServices (418)
-[2019.02.17-02.23.39:086][532]LogModuleManager: Shutting down and abandoning module PortalRpc (416)
-[2019.02.17-02.23.39:086][532]LogModuleManager: Shutting down and abandoning module MessagingRpc (414)
-[2019.02.17-02.23.39:086][532]LogModuleManager: Shutting down and abandoning module AIModule (412)
-[2019.02.17-02.23.39:111][532]LogModuleManager: Shutting down and abandoning module GameplayDebugger (411)
-[2019.02.17-02.23.39:122][532]LogModuleManager: Shutting down and abandoning module AITestSuite (409)
-[2019.02.17-02.23.39:126][532]LogModuleManager: Shutting down and abandoning module NavigationSystem (407)
-[2019.02.17-02.23.39:126][532]LogModuleManager: Shutting down and abandoning module DesktopPlatform (404)
-[2019.02.17-02.23.39:145][532]LogModuleManager: Shutting down and abandoning module ImageWriteQueue (402)
-[2019.02.17-02.23.39:147][532]LogModuleManager: Shutting down and abandoning module ProfilerService (400)
-[2019.02.17-02.23.39:242][532]LogModuleManager: Shutting down and abandoning module TaskGraph (398)
-[2019.02.17-02.23.39:263][532]LogModuleManager: Shutting down and abandoning module SteamVRController (396)
-[2019.02.17-02.23.39:263][532]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (394)
-[2019.02.17-02.23.39:263][532]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (392)
-[2019.02.17-02.23.39:278][532]LogModuleManager: Shutting down and abandoning module OculusInput (390)
-[2019.02.17-02.23.39:278][532]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (388)
-[2019.02.17-02.23.39:278][532]LogModuleManager: Shutting down and abandoning module EditableMesh (386)
-[2019.02.17-02.23.39:287][532]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (384)
-[2019.02.17-02.23.39:287][532]LogModuleManager: Shutting down and abandoning module CableComponent (382)
-[2019.02.17-02.23.39:297][532]LogModuleManager: Shutting down and abandoning module AudioCapture (380)
-[2019.02.17-02.23.39:297][532]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (378)
-[2019.02.17-02.23.39:297][532]LogModuleManager: Shutting down and abandoning module AndroidPermission (376)
-[2019.02.17-02.23.39:297][532]LogModuleManager: Shutting down and abandoning module NUTUnrealEngine4 (374)
-[2019.02.17-02.23.39:311][532]LogModuleManager: Shutting down and abandoning module NetcodeUnitTest (372)
-[2019.02.17-02.23.39:325][532]LogModuleManager: Shutting down and abandoning module MediaCompositing (370)
-[2019.02.17-02.23.39:325][532]LogModuleManager: Shutting down and abandoning module LinearTimecode (368)
-[2019.02.17-02.23.39:325][532]LogModuleManager: Shutting down and abandoning module ImgMedia (366)
-[2019.02.17-02.23.39:328][532]LogModuleManager: Shutting down and abandoning module HTML5Networking (364)
-[2019.02.17-02.23.39:328][532]LogModuleManager: Shutting down and abandoning module GeometryCacheTracks (362)
-[2019.02.17-02.23.39:328][532]LogModuleManager: Shutting down and abandoning module GeometryCacheSequencer (360)
-[2019.02.17-02.23.39:328][532]LogModuleManager: Shutting down and abandoning module BackChannel (358)
-[2019.02.17-02.23.39:339][532]LogModuleManager: Shutting down and abandoning module AppleVision (356)
-[2019.02.17-02.23.39:339][532]LogModuleManager: Shutting down and abandoning module AppleImageUtilsBlueprintSupport (354)
-[2019.02.17-02.23.39:339][532]LogModuleManager: Shutting down and abandoning module AppleImageUtils (352)
-[2019.02.17-02.23.39:339][532]LogModuleManager: Shutting down and abandoning module AlembicImporter (350)
-[2019.02.17-02.23.39:339][532]LogModuleManager: Shutting down and abandoning module AlembicLibrary (349)
-[2019.02.17-02.23.39:339][532]LogModuleManager: Shutting down and abandoning module GeometryCache (348)
-[2019.02.17-02.23.39:339][532]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (347)
-[2019.02.17-02.23.39:339][532]LogModuleManager: Shutting down and abandoning module VariantManagerContent (342)
-[2019.02.17-02.23.39:339][532]LogModuleManager: Shutting down and abandoning module DatasmithContentEditor (340)
-[2019.02.17-02.23.39:356][532]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (338)
-[2019.02.17-02.23.39:356][532]LogModuleManager: Shutting down and abandoning module PluginBrowser (336)
-[2019.02.17-02.23.39:419][532]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (334)
-[2019.02.17-02.23.39:440][532]LogModuleManager: Shutting down and abandoning module PolygonModeling (332)
-[2019.02.17-02.23.39:440][532]LogModuleManager: Shutting down and abandoning module MeshEditor (330)
-[2019.02.17-02.23.39:454][532]LogModuleManager: Shutting down and abandoning module CryptoKeysOpenSSL (328)
-[2019.02.17-02.23.39:463][532]LogModuleManager: Shutting down and abandoning module CryptoKeys (326)
-[2019.02.17-02.23.39:463][532]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (324)
-[2019.02.17-02.23.39:463][532]LogModuleManager: Shutting down and abandoning module VisualStudioCodeSourceCodeAccess (322)
-[2019.02.17-02.23.39:463][532]LogModuleManager: Shutting down and abandoning module UObjectPlugin (320)
-[2019.02.17-02.23.39:463][532]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (318)
-[2019.02.17-02.23.39:471][532]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (316)
-[2019.02.17-02.23.39:578][532]LogModuleManager: Shutting down and abandoning module GitSourceControl (314)
-[2019.02.17-02.23.39:618][532]LogModuleManager: Shutting down and abandoning module SourceControl (313)
-[2019.02.17-02.23.39:618][532]LogModuleManager: Shutting down and abandoning module CLionSourceCodeAccess (310)
-[2019.02.17-02.23.39:658][532]LogModuleManager: Shutting down and abandoning module ActorLayerUtilitiesEditor (308)
-[2019.02.17-02.23.39:658][532]LogModuleManager: Shutting down and abandoning module ActorLayerUtilities (306)
-[2019.02.17-02.23.39:658][532]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (304)
-[2019.02.17-02.23.39:658][532]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (302)
-[2019.02.17-02.23.39:658][532]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (300)
-[2019.02.17-02.23.39:668][532]LogModuleManager: Shutting down and abandoning module Paper2DEditor (298)
-[2019.02.17-02.23.39:687][532]LogModuleManager: Shutting down and abandoning module MeshPaint (297)
-[2019.02.17-02.23.39:706][532]LogModuleManager: Shutting down and abandoning module RuntimePhysXCooking (294)
-[2019.02.17-02.23.39:706][532]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (292)
-[2019.02.17-02.23.39:706][532]LogModuleManager: Shutting down and abandoning module PhysXVehicles (290)
-[2019.02.17-02.23.39:706][532]LogModuleManager: Shutting down and abandoning module OculusEditor (288)
-[2019.02.17-02.23.39:719][532]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (286)
-[2019.02.17-02.23.39:719][532]LogModuleManager: Shutting down and abandoning module ActorSequence (284)
-[2019.02.17-02.23.39:719][532]LogModuleManager: Shutting down and abandoning module UdpMessaging (282)
-[2019.02.17-02.23.39:819][532]LogModuleManager: Shutting down and abandoning module TcpMessaging (280)
-[2019.02.17-02.23.39:932][532]LogModuleManager: Shutting down and abandoning module MagicLeapAudio (278)
-[2019.02.17-02.23.39:932][532]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (276)
-[2019.02.17-02.23.39:967][532]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (274)
-[2019.02.17-02.23.39:967][532]LogModuleManager: Shutting down and abandoning module FacialAnimation (272)
-[2019.02.17-02.23.39:967][532]LogModuleManager: Shutting down and abandoning module DataValidation (270)
-[2019.02.17-02.23.39:967][532]LogModuleManager: Shutting down and abandoning module AssetManagerEditor (268)
-[2019.02.17-02.23.40:075][532]LogModuleManager: Shutting down and abandoning module LevelEditor (267)
-[2019.02.17-02.23.40:149][532]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (266)
-[2019.02.17-02.23.40:196][532]LogModuleManager: Shutting down and abandoning module CommonMenuExtensions (264)
-[2019.02.17-02.23.40:197][532]LogModuleManager: Shutting down and abandoning module MainFrame (262)
-[2019.02.17-02.23.40:197][532]LogModuleManager: Shutting down and abandoning module HotReload (261)
-[2019.02.17-02.23.40:221][532]LogModuleManager: Shutting down and abandoning module ContentBrowser (257)
-[2019.02.17-02.23.40:222][532]LogModuleManager: Shutting down and abandoning module TreeMap (255)
-[2019.02.17-02.23.40:235][532]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (252)
-[2019.02.17-02.23.40:235][532]LogModuleManager: Shutting down and abandoning module AISupportModule (250)
-[2019.02.17-02.23.40:235][532]LogModuleManager: Shutting down and abandoning module Paper2D (248)
-[2019.02.17-02.23.40:258][532]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (246)
-[2019.02.17-02.23.40:279][532]LogModuleManager: Shutting down and abandoning module WebMMoviePlayer (244)
-[2019.02.17-02.23.40:279][532]LogModuleManager: Shutting down and abandoning module WmfMedia (242)
-[2019.02.17-02.23.40:315][532]LogModuleManager: Shutting down and abandoning module Media (241)
-[2019.02.17-02.23.40:322][532]LogModuleManager: Shutting down and abandoning module PacketHandler (238)
-[2019.02.17-02.23.40:322][532]LogModuleManager: Shutting down and abandoning module ClothingSystemEditor (236)
-[2019.02.17-02.23.40:322][532]LogModuleManager: Shutting down and abandoning module ClothingSystemRuntime (234)
-[2019.02.17-02.23.40:353][532]LogModuleManager: Shutting down and abandoning module MediaAssets (232)
-[2019.02.17-02.23.40:353][532]LogModuleManager: Shutting down and abandoning module Overlay (230)
-[2019.02.17-02.23.40:353][532]LogModuleManager: Shutting down and abandoning module OverlayEditor (229)
-[2019.02.17-02.23.40:353][532]LogModuleManager: Shutting down and abandoning module VREditor (226)
-[2019.02.17-02.23.40:382][532]LogModuleManager: Shutting down and abandoning module StringTableEditor (224)
-[2019.02.17-02.23.40:417][532]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (222)
-[2019.02.17-02.23.40:417][532]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (220)
-[2019.02.17-02.23.40:542][532]LogModuleManager: Shutting down and abandoning module FunctionalTesting (218)
-[2019.02.17-02.23.40:569][532]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (216)
-[2019.02.17-02.23.40:612][532]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (215)
-[2019.02.17-02.23.40:612][532]LogModuleManager: Shutting down and abandoning module UMG (212)
-[2019.02.17-02.23.40:635][532]LogModuleManager: Shutting down and abandoning module UMGEditor (211)
-[2019.02.17-02.23.40:711][532]LogModuleManager: Shutting down and abandoning module Sequencer (210)
-[2019.02.17-02.23.40:874][532]LogModuleManager: Shutting down and abandoning module MessageLog (207)
-[2019.02.17-02.23.40:874][532]LogModuleManager: Shutting down and abandoning module SlateReflector (202)
-[2019.02.17-02.23.41:059][532]LogModuleManager: Shutting down and abandoning module Slate (200)
-[2019.02.17-02.23.41:059][532]LogModuleManager: Shutting down and abandoning module EditorStyle (198)
-[2019.02.17-02.23.41:096][532]LogModuleManager: Shutting down and abandoning module MRMesh (196)
-[2019.02.17-02.23.41:118][532]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (194)
-[2019.02.17-02.23.41:118][532]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (192)
-[2019.02.17-02.23.41:118][532]LogModuleManager: Shutting down and abandoning module XAudio2 (190)
-[2019.02.17-02.23.41:118][532]LogModuleManager: Shutting down and abandoning module Networking (188)
-[2019.02.17-02.23.41:118][532]LogModuleManager: Shutting down and abandoning module Core (186)
-[2019.02.17-02.23.41:118][532]LogModuleManager: Shutting down and abandoning module LevelSequence (184)
-[2019.02.17-02.23.41:118][532]LogModuleManager: Shutting down and abandoning module KismetCompiler (182)
-[2019.02.17-02.23.41:118][532]LogModuleManager: Shutting down and abandoning module MeshUtilities (180)
-[2019.02.17-02.23.41:131][532]LogModuleManager: Shutting down and abandoning module MeshMergeUtilities (179)
-[2019.02.17-02.23.41:178][532]LogModuleManager: Shutting down and abandoning module MeshReductionInterface (178)
-[2019.02.17-02.23.41:178][532]LogModuleManager: Shutting down and abandoning module SimplygonSwarm (177)
-[2019.02.17-02.23.41:202][532]LogModuleManager: Shutting down and abandoning module ProxyLODMeshReduction (175)
-[2019.02.17-02.23.41:234][532]LogModuleManager: Shutting down and abandoning module SimplygonMeshReduction (173)
-[2019.02.17-02.23.41:234][532]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (171)
-[2019.02.17-02.23.41:248][532]LogModuleManager: Shutting down and abandoning module MaterialBaking (167)
-[2019.02.17-02.23.41:263][532]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (163)
-[2019.02.17-02.23.41:263][532]LogModuleManager: Shutting down and abandoning module DerivedDataCache (160)
-[2019.02.17-02.23.41:371][532]LogDerivedDataCache: Shutdown
-[2019.02.17-02.23.41:371][532]LogModuleManager: Shutting down and abandoning module XGEController (158)
-[2019.02.17-02.23.41:384][532]LogModuleManager: Shutting down and abandoning module TargetPlatform (156)
-[2019.02.17-02.23.41:384][532]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (155)
-[2019.02.17-02.23.41:389][532]LogModuleManager: Shutting down and abandoning module ShaderFormatVectorVM (153)
-[2019.02.17-02.23.41:420][532]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (151)
-[2019.02.17-02.23.41:441][532]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (149)
-[2019.02.17-02.23.41:454][532]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (147)
-[2019.02.17-02.23.41:487][532]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (145)
-[2019.02.17-02.23.41:509][532]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (143)
-[2019.02.17-02.23.41:509][532]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (141)
-[2019.02.17-02.23.41:527][532]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (139)
-[2019.02.17-02.23.41:546][532]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (137)
-[2019.02.17-02.23.41:546][532]LogModuleManager: Shutting down and abandoning module ImageWrapper (136)
-[2019.02.17-02.23.41:546][532]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (133)
-[2019.02.17-02.23.41:546][532]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (131)
-[2019.02.17-02.23.41:546][532]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (129)
-[2019.02.17-02.23.41:546][532]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (127)
-[2019.02.17-02.23.41:546][532]LogModuleManager: Shutting down and abandoning module LuminTargetPlatform (125)
-[2019.02.17-02.23.41:569][532]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (123)
-[2019.02.17-02.23.41:569][532]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (121)
-[2019.02.17-02.23.41:569][532]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (119)
-[2019.02.17-02.23.41:569][532]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (117)
-[2019.02.17-02.23.41:569][532]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (115)
-[2019.02.17-02.23.41:619][532]LogModuleManager: Shutting down and abandoning module Messaging (113)
-[2019.02.17-02.23.41:619][532]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (111)
-[2019.02.17-02.23.41:619][532]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (109)
-[2019.02.17-02.23.41:619][532]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (107)
-[2019.02.17-02.23.41:623][532]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (105)
-[2019.02.17-02.23.41:623][532]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (103)
-[2019.02.17-02.23.41:623][532]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (101)
-[2019.02.17-02.23.41:623][532]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (99)
-[2019.02.17-02.23.41:623][532]LogModuleManager: Shutting down and abandoning module MacTargetPlatform (97)
-[2019.02.17-02.23.41:623][532]LogModuleManager: Shutting down and abandoning module MacServerTargetPlatform (95)
-[2019.02.17-02.23.41:623][532]LogModuleManager: Shutting down and abandoning module MacNoEditorTargetPlatform (93)
-[2019.02.17-02.23.41:623][532]LogModuleManager: Shutting down and abandoning module MacClientTargetPlatform (91)
-[2019.02.17-02.23.41:623][532]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (89)
-[2019.02.17-02.23.41:623][532]LogModuleManager: Shutting down and abandoning module InputCore (86)
-[2019.02.17-02.23.41:623][532]LogModuleManager: Shutting down and abandoning module Settings (84)
-[2019.02.17-02.23.41:623][532]LogModuleManager: Shutting down and abandoning module PhysXCooking (82)
-[2019.02.17-02.23.41:623][532]LogModuleManager: Shutting down and abandoning module SteamVR (80)
-[2019.02.17-02.23.41:646][532]LogHMD: Freeing OpenVRDLLHandle.
-[2019.02.17-02.23.41:647][532]LogModuleManager: Shutting down and abandoning module OculusHMD (78)
-[2019.02.17-02.23.41:674][532]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (76)
-[2019.02.17-02.23.41:674][532]LogModuleManager: Shutting down and abandoning module LauncherChunkInstaller (74)
-[2019.02.17-02.23.41:674][532]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (72)
-[2019.02.17-02.23.41:674][532]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (68)
-[2019.02.17-02.23.41:755][532]LogModuleManager: Shutting down and abandoning module XMPP (63)
-[2019.02.17-02.23.41:842][532]LogModuleManager: Shutting down and abandoning module WebSockets (62)
-[2019.02.17-02.23.41:886][532]LogModuleManager: Shutting down and abandoning module HTTP (59)
-[2019.02.17-02.23.41:886][532]LogHttp: Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
-[2019.02.17-02.23.41:886][532]LogHttp: Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B91845682-46FA-B3D0-C375-1B86F6CEA64D%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.21.2-4753647%2B%2B%2BUE4%2BRelease-4.21&UserID=32d0fd6f423389d24a59429fb19e88e1%7C70fa183f5f064a7bba8ccc4fb906cb70%7C60dce6e9-a400-46cd-9579-b9266457794d&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
-[2019.02.17-02.23.41:904][532]LogModuleManager: Shutting down and abandoning module SSL (58)
-[2019.02.17-02.23.41:905][532]LogModuleManager: Shutting down and abandoning module MagicLeapIdentity (54)
-[2019.02.17-02.23.41:905][532]LogModuleManager: Shutting down and abandoning module MagicLeapHelperVulkan (52)
-[2019.02.17-02.23.41:905][532]LogModuleManager: Shutting down and abandoning module MagicLeapHelperOpenGL (50)
-[2019.02.17-02.23.41:905][532]LogModuleManager: Shutting down and abandoning module MagicLeapSecureStorage (48)
-[2019.02.17-02.23.41:905][532]LogModuleManager: Shutting down and abandoning module MagicLeapHandTracking (46)
-[2019.02.17-02.23.41:905][532]LogModuleManager: Shutting down and abandoning module MagicLeapEyeTracker (44)
-[2019.02.17-02.23.41:905][532]LogModuleManager: Shutting down and abandoning module MagicLeapController (42)
-[2019.02.17-02.23.41:933][532]LogSlate: Slate User Destroyed.  User Index 0, Is Virtual User: 0
-[2019.02.17-02.23.41:933][532]LogModuleManager: Shutting down and abandoning module MagicLeap (40)
-[2019.02.17-02.23.41:978][532]LogModuleManager: Shutting down and abandoning module DatasmithContent (38)
-[2019.02.17-02.23.41:978][532]LogModuleManager: Shutting down and abandoning module AnimationModifiers (36)
-[2019.02.17-02.23.42:005][532]LogModuleManager: Shutting down and abandoning module PropertyEditor (35)
-[2019.02.17-02.23.42:025][532]LogModuleManager: Shutting down and abandoning module AudioEditor (32)
-[2019.02.17-02.23.42:075][532]LogModuleManager: Shutting down and abandoning module TextureCompressor (30)
-[2019.02.17-02.23.42:105][532]LogModuleManager: Shutting down and abandoning module ShaderCore (28)
-[2019.02.17-02.23.42:106][532]LogModuleManager: Shutting down and abandoning module Landscape (26)
-[2019.02.17-02.23.42:106][532]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (24)
-[2019.02.17-02.23.42:135][532]LogModuleManager: Shutting down and abandoning module OpenGLDrv (22)
-[2019.02.17-02.23.42:165][532]LogModuleManager: Shutting down and abandoning module D3D11RHI (20)
-[2019.02.17-02.23.42:165][532]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (18)
-[2019.02.17-02.23.42:186][532]LogModuleManager: Shutting down and abandoning module Renderer (16)
-[2019.02.17-02.23.42:186][532]LogModuleManager: Shutting down and abandoning module Engine (14)
-[2019.02.17-02.23.42:186][532]LogModuleManager: Shutting down and abandoning module CoreUObject (12)
-[2019.02.17-02.23.42:186][532]LogModuleManager: Shutting down and abandoning module NetworkFile (10)
-[2019.02.17-02.23.42:209][532]LogModuleManager: Shutting down and abandoning module CookedIterativeFile (8)
-[2019.02.17-02.23.42:209][532]LogModuleManager: Shutting down and abandoning module StreamingFile (6)
-[2019.02.17-02.23.42:281][532]LogModuleManager: Shutting down and abandoning module SandboxFile (4)
-[2019.02.17-02.23.42:281][532]LogModuleManager: Shutting down and abandoning module PakFile (2)
-[2019.02.17-02.23.42:350][532]LogExit: Exiting.
-[2019.02.17-02.23.42:376][532]Log file closed, 02/16/19 21:23:42
+[2019.02.17-02.29.55:632][  0]LogConfig: Setting CVar [[r.VSync:0]]
+[2019.02.17-02.29.55:632][  0]LogConfig: Setting CVar [[r.RHICmdBypass:0]]
+[2019.02.17-02.29.55:632][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererSettings] File [D:/Unreal Projects/ProjectROAR/ProjectROAR_Main/Saved/Config/Windows/Engine.ini]
+[2019.02.17-02.29.55:632][  0]LogConfig: Setting CVar [[r.GPUCrashDebugging:0]]
+[2019.02.17-02.29.55:632][  0]LogConfig: Setting CVar [[r.MobileHDR:0]]
+[2019.02.17-02.29.55:632][  0]LogConfig: Setting CVar [[r.Mobile.DisableVertexFog:1]]
+[2019.02.17-02.29.55:632][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxMobileCascades:2]]
+[2019.02.17-02.29.55:632][  0]LogConfig: Setting CVar [[r.MobileMSAA:1]]
+[2019.02.17-02.29.55:632][  0]LogConfig: Setting CVar [[r.Mobile.UseLegacyShadingModel:0]]
+[2019.02.17-02.29.55:632][  0]LogConfig: Setting CVar [[r.Mobile.AllowDitheredLODTransition:0]]
+[2019.02.17-02.29.55:632][  0]LogConfig: Setting CVar [[r.Mobile.AllowSoftwareOcclusion:0]]
+[2019.02.17-02.29.55:632][  0]LogConfig: Setting CVar [[r.DiscardUnusedQuality:0]]
+[2019.02.17-02.29.55:632][  0]LogConfig: Setting CVar [[r.AllowOcclusionQueries:1]]
+[2019.02.17-02.29.55:632][  0]LogConfig: Setting CVar [[r.MinScreenRadiusForLights:0.030000]]
+[2019.02.17-02.29.55:632][  0]LogConfig: Setting CVar [[r.MinScreenRadiusForDepthPrepass:0.030000]]
+[2019.02.17-02.29.55:632][  0]LogConfig: Setting CVar [[r.MinScreenRadiusForCSMDepth:0.010000]]
+[2019.02.17-02.29.55:632][  0]LogConfig: Setting CVar [[r.PrecomputedVisibilityWarning:0]]
+[2019.02.17-02.29.55:632][  0]LogConfig: Setting CVar [[r.TextureStreaming:1]]
+[2019.02.17-02.29.55:632][  0]LogConfig: Setting CVar [[Compat.UseDXT5NormalMaps:0]]
+[2019.02.17-02.29.55:632][  0]LogConfig: Setting CVar [[r.ClearCoatNormal:0]]
+[2019.02.17-02.29.55:632][  0]LogConfig: Setting CVar [[r.ReflectionCaptureResolution:128]]
+[2019.02.17-02.29.55:632][  0]LogConfig: Setting CVar [[r.ReflectionEnvironmentLightmapMixBasedOnRoughness:1]]
+[2019.02.17-02.29.55:632][  0]LogConfig: Setting CVar [[r.ForwardShading:0]]
+[2019.02.17-02.29.55:632][  0]LogConfig: Setting CVar [[r.VertexFoggingForOpaque:1]]
+[2019.02.17-02.29.55:632][  0]LogConfig: Setting CVar [[r.AllowStaticLighting:1]]
+[2019.02.17-02.29.55:632][  0]LogConfig: Setting CVar [[r.NormalMapsForStaticLighting:0]]
+[2019.02.17-02.29.55:632][  0]LogConfig: Setting CVar [[r.GenerateMeshDistanceFields:0]]
+[2019.02.17-02.29.55:632][  0]LogConfig: Setting CVar [[r.DistanceFieldBuild.EightBit:0]]
+[2019.02.17-02.29.55:632][  0]LogConfig: Setting CVar [[r.GenerateLandscapeGIData:0]]
+[2019.02.17-02.29.55:632][  0]LogConfig: Setting CVar [[r.DistanceFieldBuild.Compress:0]]
+[2019.02.17-02.29.55:632][  0]LogConfig: Setting CVar [[r.TessellationAdaptivePixelsPerTriangle:48.000000]]
+[2019.02.17-02.29.55:632][  0]LogConfig: Setting CVar [[r.SeparateTranslucency:0]]
+[2019.02.17-02.29.55:632][  0]LogConfig: Setting CVar [[r.TranslucentSortPolicy:0]]
+[2019.02.17-02.29.55:632][  0]LogConfig: Setting CVar [[r.CustomDepth:1]]
+[2019.02.17-02.29.55:632][  0]LogConfig: Setting CVar [[r.CustomDepthTemporalAAJitter:1]]
+[2019.02.17-02.29.55:632][  0]LogConfig: Setting CVar [[r.PostProcessing.PropagateAlpha:0]]
+[2019.02.17-02.29.55:632][  0]LogConfig: Setting CVar [[r.DOF.Algorithm:1]]
+[2019.02.17-02.29.55:632][  0]LogConfig: Setting CVar [[r.DefaultFeature.Bloom:0]]
+[2019.02.17-02.29.55:632][  0]LogConfig: Setting CVar [[r.DefaultFeature.AmbientOcclusion:0]]
+[2019.02.17-02.29.55:632][  0]LogConfig: Setting CVar [[r.DefaultFeature.AmbientOcclusionStaticFraction:1]]
+[2019.02.17-02.29.55:632][  0]LogConfig: Setting CVar [[r.DefaultFeature.AutoExposure:0]]
+[2019.02.17-02.29.55:632][  0]LogConfig: Setting CVar [[r.DefaultFeature.AutoExposure.Method:0]]
+[2019.02.17-02.29.55:632][  0]LogConfig: Setting CVar [[r.DefaultFeature.AutoExposure.ExtendDefaultLuminanceRange:0]]
+[2019.02.17-02.29.55:632][  0]LogConfig: Setting CVar [[r.UsePreExposure:0]]
+[2019.02.17-02.29.55:632][  0]LogConfig: Setting CVar [[r.DefaultFeature.MotionBlur:0]]
+[2019.02.17-02.29.55:632][  0]LogConfig: Setting CVar [[r.DefaultFeature.LensFlare:0]]
+[2019.02.17-02.29.55:632][  0]LogConfig: Setting CVar [[r.TemporalAA.Upsampling:0]]
+[2019.02.17-02.29.55:632][  0]LogConfig: Setting CVar [[r.DefaultFeature.AntiAliasing:0]]
+[2019.02.17-02.29.55:632][  0]LogConfig: Setting CVar [[r.DefaultFeature.LightUnits:1]]
+[2019.02.17-02.29.55:632][  0]LogConfig: Setting CVar [[r.DefaultBackBufferPixelFormat:4]]
+[2019.02.17-02.29.55:632][  0]LogConfig: Setting CVar [[r.Shadow.UnbuiltPreviewInGame:1]]
+[2019.02.17-02.29.55:632][  0]LogConfig: Setting CVar [[r.StencilForLODDither:0]]
+[2019.02.17-02.29.55:632][  0]LogConfig: Setting CVar [[r.EarlyZPass:3]]
+[2019.02.17-02.29.55:632][  0]LogConfig: Setting CVar [[r.EarlyZPassMovable:1]]
+[2019.02.17-02.29.55:632][  0]LogConfig: Setting CVar [[r.EarlyZPassOnlyMaterialMasking:0]]
+[2019.02.17-02.29.55:632][  0]LogConfig: Setting CVar [[r.DBuffer:1]]
+[2019.02.17-02.29.55:632][  0]LogConfig: Setting CVar [[r.ClearSceneMethod:1]]
+[2019.02.17-02.29.55:632][  0]LogConfig: Setting CVar [[r.BasePassOutputsVelocity:0]]
+[2019.02.17-02.29.55:632][  0]LogConfig: Setting CVar [[r.SelectiveBasePassOutputs:0]]
+[2019.02.17-02.29.55:632][  0]LogConfig: Setting CVar [[fx.GPUSimulationTextureSizeX:1024]]
+[2019.02.17-02.29.55:632][  0]LogConfig: Setting CVar [[fx.GPUSimulationTextureSizeY:1024]]
+[2019.02.17-02.29.55:632][  0]LogConfig: Setting CVar [[r.AllowGlobalClipPlane:0]]
+[2019.02.17-02.29.55:632][  0]LogConfig: Setting CVar [[r.GBufferFormat:1]]
+[2019.02.17-02.29.55:632][  0]LogConfig: Setting CVar [[r.MorphTarget.Mode:1]]
+[2019.02.17-02.29.55:632][  0]LogConfig: Setting CVar [[vr.InstancedStereo:0]]
+[2019.02.17-02.29.55:632][  0]LogConfig: Setting CVar [[vr.MultiView:0]]
+[2019.02.17-02.29.55:632][  0]LogConfig: Setting CVar [[vr.MobileMultiView:0]]
+[2019.02.17-02.29.55:632][  0]LogConfig: Setting CVar [[vr.MobileMultiView.Direct:0]]
+[2019.02.17-02.29.55:632][  0]LogConfig: Setting CVar [[vr.MonoscopicFarField:0]]
+[2019.02.17-02.29.55:632][  0]LogConfig: Setting CVar [[vr.RoundRobinOcclusion:0]]
+[2019.02.17-02.29.55:632][  0]LogConfig: Setting CVar [[vr.ODSCapture:0]]
+[2019.02.17-02.29.55:632][  0]LogConfig: Setting CVar [[r.WireframeCullThreshold:5.000000]]
+[2019.02.17-02.29.55:632][  0]LogConfig: Setting CVar [[r.SupportStationarySkylight:1]]
+[2019.02.17-02.29.55:632][  0]LogConfig: Setting CVar [[r.SupportLowQualityLightmaps:1]]
+[2019.02.17-02.29.55:632][  0]LogConfig: Setting CVar [[r.SupportPointLightWholeSceneShadows:1]]
+[2019.02.17-02.29.55:632][  0]LogConfig: Setting CVar [[r.SupportAtmosphericFog:1]]
+[2019.02.17-02.29.55:632][  0]LogConfig: Setting CVar [[r.SkinCache.CompileShaders:0]]
+[2019.02.17-02.29.55:632][  0]LogConfig: Setting CVar [[r.Mobile.EnableStaticAndCSMShadowReceivers:1]]
+[2019.02.17-02.29.55:632][  0]LogConfig: Setting CVar [[r.Mobile.EnableMovableLightCSMShaderCulling:1]]
+[2019.02.17-02.29.55:632][  0]LogConfig: Setting CVar [[r.Mobile.AllowDistanceFieldShadows:1]]
+[2019.02.17-02.29.55:632][  0]LogConfig: Setting CVar [[r.Mobile.AllowMovableDirectionalLights:1]]
+[2019.02.17-02.29.55:632][  0]LogConfig: Setting CVar [[r.MobileNumDynamicPointLights:4]]
+[2019.02.17-02.29.55:632][  0]LogConfig: Setting CVar [[r.MobileDynamicPointLightsUseStaticBranch:1]]
+[2019.02.17-02.29.55:632][  0]LogConfig: Setting CVar [[r.SkinCache.SceneMemoryLimitInMB:128.000000]]
+[2019.02.17-02.29.55:632][  0]LogConfig: Setting CVar [[r.GPUSkin.Limit2BoneInfluences:0]]
+[2019.02.17-02.29.55:632][  0]LogConfig: Setting CVar [[r.SupportDepthOnlyIndexBuffers:1]]
+[2019.02.17-02.29.55:632][  0]LogConfig: Setting CVar [[r.SupportReversedIndexBuffers:1]]
+[2019.02.17-02.29.55:633][  0]LogConfig: Setting CVar [[r.SupportMaterialLayers:0]]
+[2019.02.17-02.29.55:633][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererOverrideSettings] File [D:/Unreal Projects/ProjectROAR/ProjectROAR_Main/Saved/Config/Windows/Engine.ini]
+[2019.02.17-02.29.55:633][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [D:/Unreal Projects/ProjectROAR/ProjectROAR_Main/Saved/Config/Windows/Engine.ini]
+[2019.02.17-02.29.55:633][  0]LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
+[2019.02.17-02.29.55:633][  0]LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
+[2019.02.17-02.29.55:633][  0]LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
+[2019.02.17-02.29.55:633][  0]LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
+[2019.02.17-02.29.55:633][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
+[2019.02.17-02.29.55:633][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
+[2019.02.17-02.29.55:633][  0]LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
+[2019.02.17-02.29.55:633][  0]LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
+[2019.02.17-02.29.55:633][  0]LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
+[2019.02.17-02.29.55:633][  0]LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
+[2019.02.17-02.29.55:633][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
+[2019.02.17-02.29.55:633][  0]LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
+[2019.02.17-02.29.55:633][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
+[2019.02.17-02.29.55:633][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.GarbageCollectionSettings] File [D:/Unreal Projects/ProjectROAR/ProjectROAR_Main/Saved/Config/Windows/Engine.ini]
+[2019.02.17-02.29.55:633][  0]LogConfig: Setting CVar [[gc.MaxObjectsNotConsideredByGC:1]]
+[2019.02.17-02.29.55:633][  0]LogConfig: Setting CVar [[gc.SizeOfPermanentObjectPool:0]]
+[2019.02.17-02.29.55:633][  0]LogConfig: Setting CVar [[gc.FlushStreamingOnGC:0]]
+[2019.02.17-02.29.55:633][  0]LogConfig: Setting CVar [[gc.NumRetriesBeforeForcingGC:10]]
+[2019.02.17-02.29.55:633][  0]LogConfig: Setting CVar [[gc.AllowParallelGC:1]]
+[2019.02.17-02.29.55:633][  0]LogConfig: Setting CVar [[gc.TimeBetweenPurgingPendingKillObjects:61.1]]
+[2019.02.17-02.29.55:633][  0]LogConfig: Setting CVar [[gc.MaxObjectsInEditor:8388607]]
+[2019.02.17-02.29.55:633][  0]LogConfig: Setting CVar [[gc.IncrementalBeginDestroyEnabled:1]]
+[2019.02.17-02.29.55:633][  0]LogConfig: Setting CVar [[gc.CreateGCClusters:1]]
+[2019.02.17-02.29.55:633][  0]LogConfig: Setting CVar [[gc.MergeGCClusters:0]]
+[2019.02.17-02.29.55:633][  0]LogConfig: Setting CVar [[gc.MinGCClusterSize:5]]
+[2019.02.17-02.29.55:633][  0]LogConfig: Setting CVar [[gc.ActorClusteringEnabled:0]]
+[2019.02.17-02.29.55:633][  0]LogConfig: Setting CVar [[gc.BlueprintClusteringEnabled:0]]
+[2019.02.17-02.29.55:633][  0]LogConfig: Setting CVar [[gc.UseDisregardForGCOnDedicatedServers:0]]
+[2019.02.17-02.29.55:633][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.NetworkSettings] File [D:/Unreal Projects/ProjectROAR/ProjectROAR_Main/Saved/Config/Windows/Engine.ini]
+[2019.02.17-02.29.55:633][  0]LogConfig: Applying CVar settings from Section [/Script/UnrealEd.CookerSettings] File [D:/Unreal Projects/ProjectROAR/ProjectROAR_Main/Saved/Config/Windows/Engine.ini]
+[2019.02.17-02.29.55:640][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [D:/Unreal Projects/ProjectROAR/ProjectROAR_Main/Saved/Config/Windows/Scalability.ini]
+[2019.02.17-02.29.55:640][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2019.02.17-02.29.55:640][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2019.02.17-02.29.55:640][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [D:/Unreal Projects/ProjectROAR/ProjectROAR_Main/Saved/Config/Windows/Scalability.ini]
+[2019.02.17-02.29.55:640][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2019.02.17-02.29.55:640][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [D:/Unreal Projects/ProjectROAR/ProjectROAR_Main/Saved/Config/Windows/Scalability.ini]
+[2019.02.17-02.29.55:640][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2019.02.17-02.29.55:640][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2019.02.17-02.29.55:640][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2019.02.17-02.29.55:640][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2019.02.17-02.29.55:640][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2019.02.17-02.29.55:640][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2019.02.17-02.29.55:640][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2019.02.17-02.29.55:640][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2019.02.17-02.29.55:640][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2019.02.17-02.29.55:640][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2019.02.17-02.29.55:640][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2019.02.17-02.29.55:640][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2019.02.17-02.29.55:640][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2019.02.17-02.29.55:640][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2019.02.17-02.29.55:640][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2019.02.17-02.29.55:640][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2019.02.17-02.29.55:640][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2019.02.17-02.29.55:640][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2019.02.17-02.29.55:640][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [D:/Unreal Projects/ProjectROAR/ProjectROAR_Main/Saved/Config/Windows/Scalability.ini]
+[2019.02.17-02.29.55:640][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2019.02.17-02.29.55:640][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2019.02.17-02.29.55:640][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2019.02.17-02.29.55:640][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2019.02.17-02.29.55:640][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2019.02.17-02.29.55:640][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2019.02.17-02.29.55:640][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2019.02.17-02.29.55:640][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2019.02.17-02.29.55:640][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2019.02.17-02.29.55:640][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2019.02.17-02.29.55:640][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2019.02.17-02.29.55:640][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2019.02.17-02.29.55:640][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2019.02.17-02.29.55:640][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2019.02.17-02.29.55:640][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2019.02.17-02.29.55:640][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2019.02.17-02.29.55:640][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2019.02.17-02.29.55:640][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2019.02.17-02.29.55:640][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2019.02.17-02.29.55:640][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2019.02.17-02.29.55:640][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2019.02.17-02.29.55:640][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2019.02.17-02.29.55:640][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2019.02.17-02.29.55:640][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2019.02.17-02.29.55:640][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2019.02.17-02.29.55:640][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2019.02.17-02.29.55:640][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2019.02.17-02.29.55:640][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2019.02.17-02.29.55:640][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2019.02.17-02.29.55:640][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2019.02.17-02.29.55:640][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [D:/Unreal Projects/ProjectROAR/ProjectROAR_Main/Saved/Config/Windows/Scalability.ini]
+[2019.02.17-02.29.55:640][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2019.02.17-02.29.55:640][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2019.02.17-02.29.55:640][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2019.02.17-02.29.55:640][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2019.02.17-02.29.55:640][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2019.02.17-02.29.55:640][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2019.02.17-02.29.55:641][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2019.02.17-02.29.55:641][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2019.02.17-02.29.55:641][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [D:/Unreal Projects/ProjectROAR/ProjectROAR_Main/Saved/Config/Windows/Scalability.ini]
+[2019.02.17-02.29.55:641][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2019.02.17-02.29.55:641][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2019.02.17-02.29.55:641][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2019.02.17-02.29.55:641][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2019.02.17-02.29.55:641][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2019.02.17-02.29.55:641][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2019.02.17-02.29.55:641][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2019.02.17-02.29.55:641][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2019.02.17-02.29.55:641][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2019.02.17-02.29.55:641][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2019.02.17-02.29.55:641][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
+[2019.02.17-02.29.55:641][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2019.02.17-02.29.55:641][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2019.02.17-02.29.55:641][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [D:/Unreal Projects/ProjectROAR/ProjectROAR_Main/Saved/Config/Windows/Scalability.ini]
+[2019.02.17-02.29.55:641][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2019.02.17-02.29.55:641][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2019.02.17-02.29.55:641][  0]LogInit: Selected Device Profile: [Windows]
+[2019.02.17-02.29.55:641][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2019.02.17-02.29.55:666][  0]LogHAL: Display: Platform has ~ 16 GB [17138286592 / 17179869184 / 16], which maps to Larger [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2019.02.17-02.29.55:666][  0]LogConfig: Setting CVar [[r.Vulkan.UseRealUBs:1]]
+[2019.02.17-02.29.55:666][  0]LogInit: Going up to parent DeviceProfile []
+[2019.02.17-02.29.55:666][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [D:/Unreal Projects/ProjectROAR/ProjectROAR_Main/Saved/Config/Windows/Scalability.ini]
+[2019.02.17-02.29.55:666][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2019.02.17-02.29.55:666][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2019.02.17-02.29.55:666][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [D:/Unreal Projects/ProjectROAR/ProjectROAR_Main/Saved/Config/Windows/Scalability.ini]
+[2019.02.17-02.29.55:667][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2019.02.17-02.29.55:667][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [D:/Unreal Projects/ProjectROAR/ProjectROAR_Main/Saved/Config/Windows/Scalability.ini]
+[2019.02.17-02.29.55:667][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2019.02.17-02.29.55:667][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2019.02.17-02.29.55:667][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2019.02.17-02.29.55:667][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2019.02.17-02.29.55:667][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2019.02.17-02.29.55:667][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2019.02.17-02.29.55:667][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2019.02.17-02.29.55:667][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2019.02.17-02.29.55:667][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2019.02.17-02.29.55:667][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2019.02.17-02.29.55:667][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2019.02.17-02.29.55:667][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2019.02.17-02.29.55:667][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2019.02.17-02.29.55:667][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2019.02.17-02.29.55:667][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2019.02.17-02.29.55:667][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2019.02.17-02.29.55:667][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2019.02.17-02.29.55:667][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2019.02.17-02.29.55:667][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [D:/Unreal Projects/ProjectROAR/ProjectROAR_Main/Saved/Config/Windows/Scalability.ini]
+[2019.02.17-02.29.55:667][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2019.02.17-02.29.55:667][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2019.02.17-02.29.55:667][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2019.02.17-02.29.55:667][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2019.02.17-02.29.55:667][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2019.02.17-02.29.55:667][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2019.02.17-02.29.55:667][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2019.02.17-02.29.55:667][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2019.02.17-02.29.55:667][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2019.02.17-02.29.55:667][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2019.02.17-02.29.55:667][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2019.02.17-02.29.55:667][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2019.02.17-02.29.55:667][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2019.02.17-02.29.55:667][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2019.02.17-02.29.55:667][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2019.02.17-02.29.55:667][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2019.02.17-02.29.55:667][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2019.02.17-02.29.55:667][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2019.02.17-02.29.55:667][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2019.02.17-02.29.55:667][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2019.02.17-02.29.55:667][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2019.02.17-02.29.55:667][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2019.02.17-02.29.55:667][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2019.02.17-02.29.55:667][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2019.02.17-02.29.55:667][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2019.02.17-02.29.55:667][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2019.02.17-02.29.55:667][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2019.02.17-02.29.55:667][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2019.02.17-02.29.55:667][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2019.02.17-02.29.55:667][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2019.02.17-02.29.55:667][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [D:/Unreal Projects/ProjectROAR/ProjectROAR_Main/Saved/Config/Windows/Scalability.ini]
+[2019.02.17-02.29.55:667][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2019.02.17-02.29.55:667][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2019.02.17-02.29.55:667][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2019.02.17-02.29.55:667][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2019.02.17-02.29.55:667][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2019.02.17-02.29.55:667][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2019.02.17-02.29.55:667][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2019.02.17-02.29.55:667][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2019.02.17-02.29.55:667][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [D:/Unreal Projects/ProjectROAR/ProjectROAR_Main/Saved/Config/Windows/Scalability.ini]
+[2019.02.17-02.29.55:667][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2019.02.17-02.29.55:667][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2019.02.17-02.29.55:667][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2019.02.17-02.29.55:667][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2019.02.17-02.29.55:667][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2019.02.17-02.29.55:667][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2019.02.17-02.29.55:667][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2019.02.17-02.29.55:667][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2019.02.17-02.29.55:667][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2019.02.17-02.29.55:667][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2019.02.17-02.29.55:667][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
+[2019.02.17-02.29.55:667][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2019.02.17-02.29.55:667][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2019.02.17-02.29.55:667][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [D:/Unreal Projects/ProjectROAR/ProjectROAR_Main/Saved/Config/Windows/Scalability.ini]
+[2019.02.17-02.29.55:667][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2019.02.17-02.29.55:667][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2019.02.17-02.29.55:667][  0]LogConfig: Applying CVar settings from Section [Startup] File [../../../Engine/Config/ConsoleVariables.ini]
+[2019.02.17-02.29.55:680][  0]LogConfig: Setting CVar [[net.UseAdaptiveNetUpdateFrequency:0]]
+[2019.02.17-02.29.55:680][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [D:/Unreal Projects/ProjectROAR/ProjectROAR_Main/Saved/Config/Windows/Engine.ini]
+[2019.02.17-02.29.55:680][  0]LogInit: Computer: HOME-PC
+[2019.02.17-02.29.55:680][  0]LogInit: User: Alec
+[2019.02.17-02.29.55:680][  0]LogInit: CPU Page size=4096, Cores=6
+[2019.02.17-02.29.55:680][  0]LogInit: High frequency timer resolution =10.000000 MHz
+[2019.02.17-02.29.55:680][  0]LogMemory: Memory total: Physical=16.0GB (16GB approx)
+[2019.02.17-02.29.55:680][  0]LogMemory: Platform Memory Stats for Windows
+[2019.02.17-02.29.55:680][  0]LogMemory: Process Physical Memory: 103.63 MB used, 103.64 MB peak
+[2019.02.17-02.29.55:680][  0]LogMemory: Process Virtual Memory: 86.37 MB used, 86.37 MB peak
+[2019.02.17-02.29.55:680][  0]LogMemory: Physical Memory: 7946.58 MB used,  8397.76 MB free, 16344.34 MB total
+[2019.02.17-02.29.55:680][  0]LogMemory: Virtual Memory: 4662.29 MB used,  134213064.00 MB free, 134217728.00 MB total
+[2019.02.17-02.29.55:885][  0]LogInit: Using OS detected language (en-US).
+[2019.02.17-02.29.55:885][  0]LogInit: Using OS detected locale (en-US).
+[2019.02.17-02.29.55:912][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2019.02.17-02.29.56:994][  0]LogStreaming: Display: Took  1.109s to InitEngineTextLocalization.
+[2019.02.17-02.29.56:994][  0]LogInit: Setting process to per monitor DPI aware
+[2019.02.17-02.29.57:929][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2019.02.17-02.29.57:929][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2019.02.17-02.30.04:545][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2019.02.17-02.30.04:545][  0]LogD3D11RHI: D3D11 adapters:
+[2019.02.17-02.30.04:602][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1070' (Feature Level 11_0)
+[2019.02.17-02.30.04:602][  0]LogD3D11RHI:       8088/0/8172 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x10de
+[2019.02.17-02.30.04:604][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2019.02.17-02.30.04:604][  0]LogD3D11RHI:       0/0/8172 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2019.02.17-02.30.04:604][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2019.02.17-02.30.04:610][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2019.02.17-02.30.04:610][  0]LogD3D11RHI:     GPU DeviceId: 0x1b81 (for the marketing name, search the web for "GPU Device Id")
+[2019.02.17-02.30.04:610][  0]LogWindows: EnumDisplayDevices:
+[2019.02.17-02.30.04:610][  0]LogWindows:    0. 'NVIDIA GeForce GTX 1070' (P:1 D:1)
+[2019.02.17-02.30.04:610][  0]LogWindows:    1. 'NVIDIA GeForce GTX 1070' (P:0 D:1)
+[2019.02.17-02.30.04:611][  0]LogWindows:    2. 'NVIDIA GeForce GTX 1070' (P:0 D:0)
+[2019.02.17-02.30.04:611][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1070' (P:0 D:0)
+[2019.02.17-02.30.04:611][  0]LogWindows: DebugString: FoundDriverCount:4 
+[2019.02.17-02.30.04:611][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1070
+[2019.02.17-02.30.04:611][  0]LogD3D11RHI:   Driver Version: 418.81 (internal:25.21.14.1881, unified:418.81)
+[2019.02.17-02.30.04:611][  0]LogD3D11RHI:      Driver Date: 1-30-2019
+[2019.02.17-02.30.04:611][  0]LogRHI: Texture pool is 5661 MB (70% of 8088 MB)
+[2019.02.17-02.30.04:642][  0]LogD3D11RHI: Async texture creation enabled
+[2019.02.17-02.30.04:654][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2019.02.17-02.30.05:392][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2019.02.17-02.30.05:412][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2019.02.17-02.30.05:426][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2019.02.17-02.30.05:449][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2019.02.17-02.30.05:516][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2019.02.17-02.30.05:533][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2019.02.17-02.30.05:556][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2019.02.17-02.30.05:577][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2019.02.17-02.30.05:627][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2019.02.17-02.30.05:743][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.02.17-02.30.05:743][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.02.17-02.30.05:743][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.02.17-02.30.05:743][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.02.17-02.30.05:743][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.02.17-02.30.05:743][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.02.17-02.30.05:743][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.02.17-02.30.05:743][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.02.17-02.30.05:743][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.02.17-02.30.05:743][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.02.17-02.30.05:743][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.02.17-02.30.05:743][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.02.17-02.30.05:743][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.02.17-02.30.05:743][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.02.17-02.30.05:743][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.02.17-02.30.05:743][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.02.17-02.30.05:743][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.02.17-02.30.05:743][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.02.17-02.30.05:754][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2019.02.17-02.30.05:875][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2019.02.17-02.30.05:875][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2019.02.17-02.30.05:905][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2019.02.17-02.30.05:905][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2019.02.17-02.30.05:932][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2019.02.17-02.30.05:942][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2019.02.17-02.30.05:965][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2019.02.17-02.30.06:001][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2019.02.17-02.30.06:052][  0]LogTemp: Display: Loaded TP LuminTargetPlatform
+[2019.02.17-02.30.06:052][  0]LogTemp: Display: Loaded TP LuminTargetPlatform
+[2019.02.17-02.30.06:052][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2019.02.17-02.30.06:613][  0]LogShaderCompilers: Guid format shader working directory is 4 characters bigger than the processId version (../../../../ProjectROAR/ProjectROAR_Main/Intermediate/Shaders/WorkingDirectory/13036/).
+[2019.02.17-02.30.06:613][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Alec/AppData/Local/Temp/UnrealShaderWorkingDir/F0FCF408403B2B6393FCD3BB2C62B27D/'.
+[2019.02.17-02.30.06:615][  0]LogXGEController: Cleaning working directory: C:/Users/Alec/AppData/Local/Temp/UnrealXGEWorkingDir/
+[2019.02.17-02.30.06:615][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2019.02.17-02.30.06:615][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2019.02.17-02.30.06:615][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2019.02.17-02.30.10:524][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2019.02.17-02.30.10:754][  0]LogDerivedDataCache: Loaded boot cache 0.23s 72MB C:/Users/Alec/AppData/Local/UnrealEngine/4.21/DerivedDataCache/Boot.ddc.
+[2019.02.17-02.30.10:754][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/Alec/AppData/Local/UnrealEngine/4.21/DerivedDataCache/Boot.ddc
+[2019.02.17-02.30.10:754][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../ProjectROAR/ProjectROAR_Main/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2019.02.17-02.30.10:754][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2019.02.17-02.30.10:754][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../ProjectROAR/ProjectROAR_Main/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2019.02.17-02.30.10:754][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2019.02.17-02.30.10:788][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2019.02.17-02.30.10:788][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  EnterprisePak pak cache file ../../../Enterprise/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2019.02.17-02.30.10:788][  0]LogDerivedDataCache: Unable to find inner node EnterprisePak for hierarchical cache Hierarchy.
+[2019.02.17-02.30.10:799][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Alec/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2019.02.17-02.30.10:799][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2019.02.17-02.30.10:799][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2019.02.17-02.30.10:820][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2019.02.17-02.30.10:821][  0]LogSlate: Using FreeType 2.6.0
+[2019.02.17-02.30.10:886][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2019.02.17-02.30.11:917][  0]LogAssetRegistry: FAssetRegistry took 0.0311 seconds to start up
+[2019.02.17-02.30.12:141][  0]LogInit: Selected Device Profile: [Windows]
+[2019.02.17-02.30.12:873][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2019.02.17-02.30.13:077][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2019.02.17-02.30.13:077][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2019.02.17-02.30.13:077][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2019.02.17-02.30.13:077][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2019.02.17-02.30.13:090][  0]LogNetVersion: ProjectROAR_Main 1.0.0, NetCL: 4541578, EngineNetVer: 5, GameNetVer: 0 (Checksum: 3325386764)
+[2019.02.17-02.30.14:467][  0]LogPackageLocalizationCache: Processed 11 localized package path(s) for 2 prioritized culture(s) in 0.096672 seconds
+[2019.02.17-02.30.14:472][  0]LogUObjectArray: 39775 objects as part of root set at end of initial load.
+[2019.02.17-02.30.14:472][  0]LogUObjectAllocator: 6914664 out of 0 bytes used by permanent object pool.
+[2019.02.17-02.30.14:472][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2019.02.17-02.30.41:413][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2019.02.17-02.30.41:487][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2019.02.17-02.30.44:029][  0]SourceControl: Source control is disabled
+[2019.02.17-02.30.44:029][  0]SourceControl: Source control is disabled
+[2019.02.17-02.30.44:075][  0]SourceControl: Source control is disabled
+[2019.02.17-02.30.44:076][  0]SourceControl: Source control is disabled
+[2019.02.17-02.30.45:714][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2019.02.17-02.30.46:283][  0]LogOcInput: OculusInput pre-init called
+[2019.02.17-02.30.46:788][  0]LogEngine: Initializing Engine...
+[2019.02.17-02.30.46:788][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2019.02.17-02.30.46:789][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
+[2019.02.17-02.30.46:789][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2019.02.17-02.30.46:789][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
+[2019.02.17-02.30.46:789][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2019.02.17-02.30.47:030][  0]LogInit: Initializing FReadOnlyCVARCache
+[2019.02.17-02.30.47:061][  0]LogAIModule: Creating AISystem for world Untitled
+[2019.02.17-02.30.47:081][  0]LogInit: XAudio2 using 'Speakers (Realtek(R) Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.02.17-02.30.47:107][  0]LogInit: FAudioDevice initialized.
+[2019.02.17-02.30.47:107][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2019.02.17-02.30.47:264][  0]LogDerivedDataCache: Saved boot cache 0.16s 71MB C:/Users/Alec/AppData/Local/UnrealEngine/4.21/DerivedDataCache/Boot.ddc.
+[2019.02.17-02.30.47:272][  0]LogInit: Texture streaming: Enabled
+[2019.02.17-02.30.47:503][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2019.02.17-02.30.47:527][  0]LogInit: Transaction tracking system initialized
+[2019.02.17-02.30.47:883][  0]BlueprintLog: New page: Editor Load
+[2019.02.17-02.30.49:385][  0]LocalizationService: Localization service is disabled
+[2019.02.17-02.30.51:425][  0]LogFileCache: Scanning file cache for directory 'D:/Unreal Projects/ProjectROAR/ProjectROAR_Main/Content/' took 0.01s
+[2019.02.17-02.30.51:425][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2019.02.17-02.30.51:425][  0]LogCook: Display: Mobile HDR setting 0
+[2019.02.17-02.30.51:425][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2019.02.17-02.30.51:425][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
+[2019.02.17-02.30.51:425][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2019.02.17-02.30.51:425][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
+[2019.02.17-02.30.51:425][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2019.02.17-02.30.56:091][  0]SourceControl: Source control is disabled
+[2019.02.17-02.30.56:091][  0]Cmd: MAP LOAD FILE="../../../../ProjectROAR/ProjectROAR_Main/Content/RollingBP/Maps/RollingBPExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2019.02.17-02.30.56:091][  0]LightingResults: New page: Lighting Build
+[2019.02.17-02.30.56:093][  0]MapCheck: New page: Map Check
+[2019.02.17-02.30.56:093][  0]LightingResults: New page: Lighting Build
+[2019.02.17-02.30.56:244][  0]LogLinker: Warning: Asset '../../../../ProjectROAR/ProjectROAR_Main/Content/Rolling/Materials/M_Blue_Checker.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2019.02.17-02.30.57:301][  0]LogAIModule: Creating AISystem for world RollingBPExampleMap
+[2019.02.17-02.30.57:361][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2019.02.17-02.30.57:382][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2019.02.17-02.30.57:382][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.08ms to complete.
+[2019.02.17-02.30.57:382][  0]LogFileHelpers: Loading map 'RollingBPExampleMap' took 1.291
+[2019.02.17-02.30.57:810][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.02.17-02.30.57:816][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.02.17-02.30.57:821][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.02.17-02.30.57:826][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.02.17-02.30.57:978][  0]LogCollectionManager: Loaded 0 collections in 0.001566 seconds
+[2019.02.17-02.30.58:016][  0]LogFileCache: Scanning file cache for directory 'D:/Unreal Projects/ProjectROAR/ProjectROAR_Main/Saved/Collections/' took 0.01s
+[2019.02.17-02.30.58:016][  0]LogFileCache: Scanning file cache for directory 'D:/Unreal Projects/ProjectROAR/ProjectROAR_Main/Content/Developers/Alec/Collections/' took 0.01s
+[2019.02.17-02.30.58:016][  0]LogFileCache: Scanning file cache for directory 'D:/Unreal Projects/ProjectROAR/ProjectROAR_Main/Content/Collections/' took 0.01s
+[2019.02.17-02.30.58:016][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000000 seconds
+[2019.02.17-02.30.58:023][  0]LogContentBrowser: Native class hierarchy populated in 0.0063 seconds. Added 2651 classes and 620 folders.
+[2019.02.17-02.30.58:028][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0002 seconds. Added 0 classes and 0 folders.
+[2019.02.17-02.30.58:247][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.02.17-02.30.58:402][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.02.17-02.30.58:495][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.02.17-02.30.58:629][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.02.17-02.30.58:803][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.02.17-02.30.58:844][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.02.17-02.30.58:884][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.02.17-02.30.59:061][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.02.17-02.30.59:221][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.02.17-02.30.59:278][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.02.17-02.30.59:405][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.02.17-02.30.59:509][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.02.17-02.30.59:662][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.02.17-02.30.59:858][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.02.17-02.30.59:921][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.02.17-02.31.00:000][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.02.17-02.31.00:106][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.02.17-02.31.00:219][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.02.17-02.31.00:359][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.02.17-02.31.00:443][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.02.17-02.31.00:565][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.02.17-02.31.00:652][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.02.17-02.31.00:741][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.02.17-02.31.00:852][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.02.17-02.31.00:931][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.02.17-02.31.01:038][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.02.17-02.31.03:484][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2019.02.17-02.31.03:512][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0002 seconds. Added 1 classes and 2 folders.
+[2019.02.17-02.31.03:545][  0]LogSlate: Took 0.014118 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2019.02.17-02.31.03:556][  0]LogSlate: Took 0.010401 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2019.02.17-02.31.03:569][  0]LogSlate: Took 0.009421 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2019.02.17-02.31.03:748][  0]LogRenderer: Reallocating scene render targets to support 1616x840 Format 10 NumSamples 1 (Frame:1).
+[2019.02.17-02.31.03:962][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0002 seconds. Added 0 classes and 0 folders.
+[2019.02.17-02.31.03:962][  0]LogLoad: (Engine Initialization) Total time: 106.83 seconds
+[2019.02.17-02.31.03:962][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2019.02.17-02.31.04:027][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2019.02.17-02.31.04:055][  1]LogAssetRegistry: Asset discovery search completed in 52.1601 seconds
+[2019.02.17-02.31.04:057][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
+[2019.02.17-02.31.04:057][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000062 seconds (updated 0 objects)
+[2019.02.17-02.31.07:728][ 12]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.02.17-02.31.09:183][ 62]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.02.17-02.31.41:403][587]LogSlate: Window 'Source Control Login' being destroyed
+[2019.02.17-02.31.49:957][ 60]LogSlate: FSceneViewport::OnFocusLost() reason 0
